@@ -13,17 +13,13 @@ services:
       - "5000:5000"
 
   client:
-    build: client
-    command: ["npm", "start"]
-    volumes:
-      - ./client:/frontend
-      - node-modules:/frontend/node_modules
-    environment:
-      - NODE_ENV=development
-    ports:
-      - '3000:3000'
     depends_on:
       - api
-
-volumes:
-  node-modules:
+    build: ./client
+    stdin_open: true
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app

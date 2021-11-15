@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import ReactDOM from 'react-dom';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
 
@@ -12,14 +13,15 @@ function App() {
   })
 
   return (
-    <div>
-      {text}
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          {text}
+        </p>
+      </header>
     </div>
   );
 }
 
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+export default App;

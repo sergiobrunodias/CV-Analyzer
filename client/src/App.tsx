@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FileDropZone from './components/FileDropZone';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {text}
+          <FileDropZone/>
         </p>
       </header>
     </div>

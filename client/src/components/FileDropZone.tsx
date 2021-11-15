@@ -1,6 +1,6 @@
-import React, {useCallback} from 'react'
-import {useDropzone} from 'react-dropzone'
-const base64 = require('base64topdf');
+import React, { useCallback } from 'react'
+import { useDropzone } from 'react-dropzone'
+import API from '../api/API';
 
 export default function FileDropZone() {
   const onDrop = useCallback((acceptedFiles) => {
@@ -10,14 +10,19 @@ export default function FileDropZone() {
       reader.onabort = () => console.log('file reading was aborted')
       reader.onerror = () => console.log('file reading has failed')
       reader.onload = () => {
-        const binaryStr = reader.result
-        console.log(binaryStr)
+        const binaryStr = reader.result?.toString();
+
+        if (typeof binaryStr === 'string') {
+          console.log("Sending request to Flask...");
+          new API().uploadFile(binaryStr);
+        }
+
       }
       reader.readAsArrayBuffer(file)
     })
-    
+
   }, [])
-  const {getRootProps, getInputProps} = useDropzone({onDrop})
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
 
   return (
     <div {...getRootProps()}>

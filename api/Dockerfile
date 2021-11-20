@@ -3,5 +3,6 @@ RUN mkdir /backend
 WORKDIR /backend
 COPY requirements.txt /backend/requirements.txt
 RUN pip install --upgrade pip && \
+    pip install flask-cors --upgrade && \
     pip install -r requirements.txt
 COPY . .

@@ -1,22 +1,19 @@
-from flask import Flask, jsonify, make_response, request
+from flask import Flask, request 
+import logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger('_______')
+
+from controllers.upload_controller import parse_resume
 
 app = Flask(__name__)
 from flask_cors import CORS
 CORS(app)
 
-@app.route('/api/test', methods=['GET'])
-def test_response():
-    print("Received request from client...")
-
-    response = "API response"
-    response = make_response(jsonify(response))
-    response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000'
-    print(response)
-    return response
-
 @app.route('/api/upload_cv', methods=['POST'])
 def upload_cv_response():
-    #TODO
-    data = request.json
-    response = make_response(jsonify(data))
+    logger.info('Received cv request...')
+
+    parse_resume(request)
+
+    response = 'File has been received'
     return response

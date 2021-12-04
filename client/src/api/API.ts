@@ -19,11 +19,9 @@ export default class API {
         return `${this.url}/${path}`
     }
 
-    async uploadFile(binaryString: String) {
+    async uploadFile(fileData: Object) {
         const url = this.buildURL('upload_cv');
-        await axios.post(url, {
-            binaryContent: binaryString
-        }).then(function (response) {
+        await axios.post(url, fileData).then((response: any) => {
             console.log(response);
         });
     }

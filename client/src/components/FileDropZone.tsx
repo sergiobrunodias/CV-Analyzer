@@ -10,14 +10,12 @@ export default function FileDropZone() {
 
       reader.onabort = () => console.log('file reading was aborted')
       reader.onerror = () => console.log('file reading has failed')
-      reader.onload = () => {
-        const binaryStr = reader.result?.toString();
+      reader.onload = async () => {
+        const data = new FormData();
+        data.append('file', file);
+        data.append('filename', file.name);
 
-        if (typeof binaryStr === 'string') {
-          console.log("Sending request to Flask...");
-          new API().uploadFile(binaryStr);
-        }
-
+        await new API().uploadFile(data);
       }
       reader.readAsArrayBuffer(file)
     })

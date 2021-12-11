@@ -3,7 +3,8 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('_______')
 
-from controllers.upload_controller import parse_resume
+from controllers.upload_controller import parse_resume_experiment
+from utils.technologies_extractor import build_set
 
 app = Flask(__name__)
 from flask_cors import CORS
@@ -13,7 +14,19 @@ CORS(app)
 def upload_cv_response():
     logger.info('Received cv request...')
 
-    parse_resume(request)
+    parse_resume_experiment(request)
 
     response = 'File has been received'
     return response
+
+def app_setup():
+    global technologies
+    technologies = build_set()
+    logger.info("Set successfully built!")
+
+    logger.info("Java" in technologies)
+    logger.info("JavaScript" in technologies)
+    logger.info("WSL" in technologies)
+
+
+app_setup()

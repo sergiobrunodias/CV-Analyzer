@@ -87,9 +87,10 @@ def parse_resume_experiment(request):
         # Parse the resume fields
         raw = parser.from_file(file_path)
         pdf_content = raw['content']
+        logger.info(pdf_content)
     
         # Remove pdf from internal storage
-        os.remove(os.path.join('temp/', filename))
+        os.remove(file_path)
 
     except Exception as e: 
         logger.info(str(e)) 

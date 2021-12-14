@@ -32,7 +32,7 @@ def build_file():
 def build_set():
     technologies_set = set()
     try:
-        file_path = os.path.join('/backend/utils/', 'technologies.txt')
+        file_path = os.path.join('/backend/utils/', 'technologies_short.txt')
         technologies_file = open(file_path, 'r')
         lines = technologies_file.readlines()
         

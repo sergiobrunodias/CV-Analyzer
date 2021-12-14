@@ -1,0 +1,200 @@
+// Languages - https://raygun.com/blog/programming-languages/
+Java
+C
+Python
+C++
+Visual Basic
+Visual Basic .NET
+C#
+C Sharp
+PHP
+JavaScript
+JS
+TypeScript
+TS
+SQL
+PostgreSQL
+NoSQL
+MongoDB
+Objective-C
+Delphi
+Object Pascal
+Pascal
+Ruby
+MATLAB
+Assembly
+ASM 
+Swift
+Go
+Perl
+R
+SAS
+Dart
+F#
+COBOL
+Scala
+ABAP
+Fortran
+Lua
+Rust
+Lisp
+Groovy
+LabVIEW
+Prolog
+Ada
+Haskell
+Apex
+Kotlin
+Bash
+Ladder Logic
+Clojure
+Scheme
+
+// Operating Systems
+Windows
+Ubuntu
+Linux
+MacOS
+
+// Frameworks - https://www.bairesdev.com/blog/top-100-development-frameworks/
+Angular
+AngularJS
+ASP.NET
+ASP.NET CORE
+.NET
+Express
+Node.js
+NodeJS
+Vue
+Spring
+Django
+Flask
+Laravel
+Ruby on Rails
+RoR
+Symfony
+Gatsby
+Sinatra
+CakePHP
+Horde
+Yii
+Zend
+ZF
+Zikula
+Bootstrap
+Grails
+Play
+Web2py
+Lumen
+TurboGears
+Phalcon
+FuelPHP
+Spark
+Grok
+Mojolicious
+Wieket
+Yesod
+Sencha Ext JS
+Nuxt.js
+NuxtJS
+Phoenix
+CodeIgniter
+PHPixie
+Javalin
+Silex
+Caliburn Micro
+Ionic
+Xamarin
+PhoneGap
+React Native
+React
+Corona
+jQuery Mobile
+jQuery
+Flutter
+Mobile Angular UI
+Appcelerator Titanium
+Swiftic
+NativeScript
+Framework 7
+Ratchet
+PyTorch
+Neural Network Libraries
+Apache MXNET
+ML.NET
+Infer.NET
+Accord.NET
+Chainer
+Horovod
+H2O Q
+Robot Framework
+Gauge
+Pytest
+Jest
+Mocha
+Jasmine
+Nightwatch
+Protactor
+Cypress
+TestProject
+Galen Framework
+WebDriverIO
+OpenTest
+Citrus
+Karate
+Scrapy
+Truffle
+Embark
+Etherlime
+OpenZepplin Contracts
+Brownie
+Create Eth App
+Exonum
+Hyperledger
+Corda
+MultiChain
+Meteor
+Onsen UI
+SiteWhere
+Electron
+Svelte
+Aurelia
+Mithril
+Bulma
+Microdot
+Rapidoid
+Ktor
+Scalatra
+Toolatra
+
+HTML
+HTML5
+DOM
+CSS
+Agile
+Scrum
+XP
+Unity
+Unity3D
+Unreal
+Unreal Engine
+Maven
+Gradle
+GitHub
+GitLab
+Docker
+REST
+Web Development
+Mobile Development
+Backend Development
+Back-end Development
+Frontend Development
+Front-end Development
+Machine Learning
+ML
+Artificial Intelligence
+AI
+Object Oriented Programming
+OOP
+Distributed Systems
+MVC

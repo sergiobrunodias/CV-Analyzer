@@ -3,7 +3,7 @@ import { useDropzone } from 'react-dropzone'
 import API from '../api/API';
 import uploadIcon from '../images/uploadIcon.png';
 
-export default function FileDropZone() {
+export default function FileDropZone({onDataExtract} : any) {
   const onDrop = useCallback((acceptedFiles) => {
     acceptedFiles.forEach((file: any) => {
       const reader = new FileReader()
@@ -15,7 +15,7 @@ export default function FileDropZone() {
         data.append('file', file);
         data.append('filename', file.name);
 
-        await new API().uploadFile(data);
+        await onDataExtract(data)
       }
       reader.readAsArrayBuffer(file)
     })

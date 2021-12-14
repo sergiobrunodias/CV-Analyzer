@@ -15,7 +15,7 @@ def upload_cv_response():
     logger.info('Received cv request...')
 
     parse_resume_experiment(request)
-
+    
     response = 'File has been received'
     return response
 

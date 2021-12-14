@@ -8,6 +8,7 @@ from tika import parser
 import tika
 tika.initVM()
 
+from utils.technologies_parser import parse_technologies
 from resume_parser import resumeparse
 
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'doc', 'docx'}
@@ -86,8 +87,10 @@ def parse_resume_experiment(request):
 
         # Parse the resume fields
         raw = parser.from_file(file_path)
-        pdf_content = raw['content']
-        logger.info(pdf_content)
+        file_content = raw['content']
+        #logger.info(file_content)
+        logger.info("Before parse technologies")
+        parse_technologies(file_content)
     
         # Remove pdf from internal storage
         os.remove(file_path)

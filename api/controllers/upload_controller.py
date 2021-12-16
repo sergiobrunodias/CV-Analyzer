@@ -85,12 +85,23 @@ def parse_resume_experiment(request):
         file.save(file_path)
         logger.info('File has been saved!')
 
-        # Parse the resume fields
+        # Parse the resume technologies
         raw = parser.from_file(file_path)
         file_content = raw['content']
         #logger.info(file_content)
-        logger.info("Before parse technologies")
         parse_technologies(file_content)
+
+        # Parse the resume fields
+        data = resumeparse.read_file(file_path)
+
+        # Bio data
+        name = data['name']
+        phone_number = data['phone']
+        designition = data['designition']
+        university = data['university']
+        companies_worked_at = data['Companies worked at']
+
+        logger.info(name, phone_number, designition, university, companies_worked_at)
     
         # Remove pdf from internal storage
         os.remove(file_path)

@@ -22,11 +22,6 @@ def upload_cv_response():
 def app_setup():
     global technologies
     technologies = build_set()
-    logger.info("Set successfully built!")
-
-    logger.info("Java" in technologies)
-    logger.info("JavaScript" in technologies)
-    logger.info("WSL" in technologies)
-
+    logger.info("Skill set successfully built!")
 
 app_setup()

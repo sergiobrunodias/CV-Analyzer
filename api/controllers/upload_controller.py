@@ -96,12 +96,13 @@ def parse_resume_experiment(request):
 
         # Bio data
         name = data['name']
+        email = data['email']
         phone_number = data['phone']
         designition = data['designition']
         university = data['university']
         companies_worked_at = data['Companies worked at']
 
-        logger.info(name, phone_number, designition, university, companies_worked_at)
+        logger.info(str(name), str(email), str(phone_number), str(designition), str(university), str(companies_worked_at))
     
         # Remove pdf from internal storage
         os.remove(file_path)

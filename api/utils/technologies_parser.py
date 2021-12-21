@@ -7,8 +7,7 @@ logging.basicConfig(level=logging.DEBUG)
 def parse_technologies(file_content):
     tokens = nltk.word_tokenize(file_content)
     technologies = set()
-    logger.info(tokens)
-    for index in range(len(tokens)):
+    for index in range(len(tokens)):   
         # Firstly attempts to match a 3-term skill
         if index + 2 < len(tokens):
             neighboring_words = f'{tokens[index]} {tokens[index + 1]} {tokens[index + 2]}'

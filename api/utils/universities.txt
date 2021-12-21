@@ -1,0 +1,2001 @@
+
+Harvard University
+Massachusetts Institute of Technology
+Stanford University
+University of Cambridge
+University of Oxford
+Princeton University
+Columbia University
+University of Chicago
+University of Pennsylvania
+Yale University
+California Institute of Technology
+University of California, Berkeley
+University of Tokyo
+Cornell University
+University of Michigan, Ann Arbor
+Johns Hopkins University
+Northwestern University
+University of California, Los Angeles
+University College London
+Duke University
+PSL University
+University of Illinois at Urbana–Champaign
+University of Washington   Seattle
+University of Toronto
+University of Wisconsin–Madison
+New York University
+McGill University
+Kyoto University
+ETH Zurich
+Imperial College London
+Seoul National University
+Paris Saclay University
+University of Texas at Austin
+University of California, San Diego
+Karolinska Institute
+Sorbonne University
+University of Copenhagen
+University of California, San Francisco
+University of North Carolina at Chapel Hill
+Dartmouth College
+Institut Polytechnique de Paris
+University of Paris
+King's College London
+Ludwig Maximilian University of Munich
+University of Edinburgh
+University of Minnesota   Twin Cities
+Washington University in St. Louis
+University of British Columbia
+Rockefeller University
+Rutgers University–New Brunswick
+University of Southern California
+University of California, Davis
+Vanderbilt University
+Pennsylvania State University
+Free University of Berlin
+Ohio State University
+University of Manchester
+Tsinghua University
+Peking University
+Humboldt University of Berlin
+Purdue University
+University of Texas Southwestern Medical Center
+University of Melbourne
+Hebrew University of Jerusalem
+University of Zurich
+Brown University
+Weizmann Institute of Science
+University of Colorado Boulder
+University of Virginia
+Heidelberg University
+Utrecht University
+University of Pittsburgh
+University of Chinese Academy of Sciences
+Texas A&amp;M University, College Station
+University of Maryland, College Park
+Georgia Institute of Technology
+University of Oslo
+Osaka University
+University of Birmingham
+Technical University of Munich
+University of Alberta
+University of California, Irvine
+University of Rochester
+University of Amsterdam
+Carnegie Mellon University
+University of Florida
+Leiden University
+Uppsala University
+National University of Singapore
+National Taiwan University
+University of Bristol
+University of Göttingen
+University of Arizona
+Boston University
+University of California, Santa Barbara
+Erasmus University Rotterdam
+Keio University
+University of Sydney
+University of Geneva
+University of Basel
+University of Leeds
+Shanghai Jiao Tong University
+University of Groningen
+École Polytechnique Fédérale de Lausanne
+University of São Paulo
+University of Texas MD Anderson Cancer Center
+Aarhus University
+University of Tübingen
+University of Queensland
+Zhejiang University
+Indiana University Bloomington
+University of Utah
+Sapienza University of Rome
+University of New South Wales
+Fudan University
+KU Leuven
+University of Southampton
+University of Helsinki
+INSEAD
+University of Montreal
+Ghent University
+University of Freiburg
+University of Bonn
+Emory University
+Australian National University
+University of Glasgow
+Baylor College of Medicine
+Monash University
+Case Western Reserve University
+Nagoya University
+University of Barcelona
+Tohoku University
+Goethe University Frankfurt
+Tufts University
+University of Nottingham
+Nanyang Technological University
+University of Liverpool
+Grenoble Alpes University
+University of Science and Technology of China
+KTH Royal Institute of Technology
+Lund University
+VU Amsterdam
+University of Bern
+Stockholm University
+University of Iowa
+Michigan State University
+Rice University
+University of Strasbourg
+University of Colorado Anschutz Medical Campus
+University of Sheffield
+Tokyo Institute of Technology
+Tel Aviv University
+Sun Yat sen University
+Queen Mary University of London
+Radboud University
+University of Western Australia
+Aix Marseille University
+University of Massachusetts Amherst
+Cardiff University
+Huazhong University of Science and Technology
+Technion – Israel Institute of Technology
+Nanjing University
+Korea University
+McMaster University
+University of Padova
+University of Hamburg
+Iowa State University
+University of Montpellier
+Yonsei University
+University of Notre Dame
+University of Hong Kong
+Icahn School of Medicine at Mount Sinai
+University of Gothenburg
+University of Warwick
+École nationale d'administration
+University of Milan
+University of Bologna
+Newcastle University
+University of Alabama at Birmingham
+Wageningen University &amp; Research
+Arizona State University
+Norwegian University of Science and Technology
+Western University
+University of Cologne
+University of Kansas
+Autonomous University of Barcelona
+Chinese University of Hong Kong
+Waseda University
+University of Lausanne
+University of Calgary
+North Carolina State University
+Sungkyunkwan University
+University of Münster
+Lomonosov Moscow State University
+University of Connecticut
+Technical University of Denmark
+Université catholique de Louvain
+Stony Brook University
+Brandeis University
+University of Waterloo
+University of Lisbon
+University of Ottawa
+University of Würzburg
+University of Georgia
+Xi'an Jiaotong University
+Harbin Institute of Technology
+University of Vienna
+Johannes Gutenberg University Mainz
+Yeshiva University
+Technical University of Dresden
+RWTH Aachen University
+The Scripps Research Institute
+University of Adelaide
+University of Illinois at Chicago
+Wuhan University
+Kiel University
+University of Missouri–Columbia
+Trinity College Dublin
+Université libre de Bruxelles
+Hokkaido University
+Claude Bernard University Lyon 1
+Xiamen University
+KAIST
+Kyushu University
+Shandong University
+University of Miami
+University of Erlangen–Nuremberg
+Georgetown University
+Hong Kong University of Science and Technology
+University of Turin
+Tianjin University
+London School of Hygiene &amp; Tropical Medicine
+Charles University in Prague
+Karlsruhe Institute of Technology
+P.N. Lebedev Physical Institute of the Russian Academy of Sciences
+University of Cincinnati
+Wake Forest University
+University of Naples Federico II
+Paul Sabatier University
+Sichuan University
+University of Sussex
+University of California, Riverside
+University of Bordeaux
+University of Texas Health Science Center at Houston
+University of Leicester
+University of Reading
+Complutense University of Madrid
+Jilin University
+Nankai University
+Maastricht University
+University of Tennessee, Knoxville
+HEC Paris
+South China University of Technology
+Virginia Commonwealth University
+Colorado State University
+Tongji University
+University of Houston
+University of Florence
+Delft University of Technology
+Southeast University
+University of Tsukuba
+University of Auckland
+University of Exeter
+National and Kapodistrian University of Athens
+University of Pisa
+City University of Hong Kong
+Hong Kong Polytechnic University
+Oregon Health &amp; Science University
+University of Cape Town
+Oregon State University
+Virginia Tech
+University of East Anglia
+Central South University
+University of Manitoba
+Florida State University
+University of Bergen
+Soochow University, China
+King Abdulaziz University
+Leipzig University
+University of Aberdeen
+University of Genoa
+Autonomous University of Madrid
+University of Massachusetts Medical School
+University of California, Santa Cruz
+University of Lorraine
+University of Maryland, Baltimore
+National Autonomous University of Mexico
+University of Valencia
+University College Dublin
+University of Antwerp
+University of Liège
+University of the Witwatersrand
+University at Buffalo
+Laval University
+Medical University of Vienna
+Beihang University
+University of South Florida
+Wayne State University
+University of Delaware
+University of Pavia
+University of Kentucky
+Louisiana State University
+Dalian University of Technology
+King Abdullah University of Science and Technology
+University of New Mexico
+University of Nebraska–Lincoln
+Washington State University
+China Europe International Business School
+George Washington University
+University of Lille
+University of Rome Tor Vergata
+Ruhr University Bochum
+University of Duisburg Essen
+Southern Methodist University
+Queen's University
+Hanyang University
+University of Porto
+Ulm University
+Chinese Academy of Medical Sciences &amp; Peking Union Medical College
+Northeastern University
+University of York
+Friedrich Schiller University Jena
+Durham University
+Umeå University
+Beijing Normal University
+University of Granada
+University of South Carolina   Columbia
+London School of Economics and Political Science
+Polytechnic University of Milan
+Dalhousie University
+National Cheng Kung University
+University of Düsseldorf
+Eindhoven University of Technology
+Hunan University
+Aalto University
+Versailles Saint Quentin en Yvelines University
+Hannover Medical School
+International Institute for Management Development
+Simon Fraser University
+Beijing Institute of Technology
+University of Dundee
+University of St Andrews
+University of the Basque Country
+University of Milano Bicocca
+Lancaster University
+University of Electronic Science and Technology of China
+University of Campinas
+University of Belgrade
+École des ponts ParisTech
+City College of New York
+University of Otago
+Temple University
+Albert Einstein College of Medicine
+Aalborg University
+Ben Gurion University of the Negev
+University of Buenos Aires
+Queen's University Belfast
+Vrije Universiteit Brussel
+Drexel University
+Federal University of Rio de Janeiro
+University of Southern Denmark
+Linköping University
+Curtin University
+University of Marburg
+University of Parma
+Lanzhou University
+China Agricultural University
+Pohang University of Science and Technology
+National Research Center «Kurchatov Institute»
+Technical University of Berlin
+King Saud University
+Islamic Azad University
+Justus Liebig University Giessen
+University of Ljubljana
+University of Innsbruck
+Jagiellonian University
+Pontifical Catholic University of Chile
+University of Oregon
+University of Technology Sydney
+Macquarie University
+University of Turku
+National Tsing Hua University
+Medical University of South Carolina
+East China Normal University
+University of Victoria
+Chongqing University
+University of Perugia
+Deakin University
+University of Regensburg
+Griffith University
+Kyung Hee University
+University of Oklahoma, Norman
+East China University of Science and Technology
+University of Warsaw
+Pompeu Fabra University
+University of Wollongong
+University of Malaya
+University of Newcastle
+University of Texas at Dallas
+Chalmers University of Technology
+Queensland University of Technology
+Kyungpook National University
+University at Albany, SUNY
+Swedish University of Agricultural Sciences
+University of Seville
+Vienna University of Technology
+University of Coimbra
+University of Bari
+Aristotle University of Thessaloniki
+University of Science and Technology Beijing
+University of Twente
+Amherst College
+Northwestern Polytechnical University
+University of Saskatchewan
+Indian Institute of Management Ahmedabad
+University of Tasmania
+University of Côte d'Azur
+Tampere University
+University of Ulsan
+Indiana University – Purdue University Indianapolis
+São Paulo State University
+Zhengzhou University
+Texas Tech University
+Hiroshima University
+Thomas Jefferson University
+Capital Medical University
+York University
+China University of Geosciences
+Kansas State University
+Chonnam National University
+University of Stuttgart
+Stockholm School of Economics
+Catholic University of the Sacred Heart
+University of Mississippi
+Stellenbosch University
+University of Chile
+University of Trieste
+Okayama University
+University of Clermont Auvergne
+Kobe University
+Tulane University
+Shenzhen University
+Saint Louis University
+University of Bath
+University of Texas Health Science Center at San Antonio
+University of Oulu
+Vita Salute San Raffaele University
+University of Navarra
+Pusan National University
+University of Trento
+Medical College of Wisconsin
+University of Eastern Finland
+University of Zaragoza
+Martin Luther University Halle Wittenberg
+National Chiao Tung University
+University of Catania
+University of Colorado Denver
+University of Vermont
+Indian Institute of Science
+University of Guelph
+University of Alabama   Tuscaloosa
+Syracuse University
+University of Central Florida
+Polytechnic University of Catalonia
+University of Louisville
+Shanghai University
+University of Santiago de Compostela
+University of Siena
+Florida International University
+Nanjing Agricultural University
+Nanjing University of Aeronautics and Astronautics
+Nanjing University of Science and Technology
+George Mason University
+Federal University of Rio Grande do Sul
+University of Strathclyde
+Scuola Normale Superiore di Pisa
+Technical University of Darmstadt
+Joint Institute for Nuclear Research
+University of Rostock
+Beijing University of Chemical Technology
+École normale supérieure de Lyon
+James Cook University
+University of KwaZulu Natal
+Chulalongkorn University
+Oklahoma State University
+University of Oviedo
+Ioffe Physical Technical Institute of the Russian Academy of Sciences
+Polytechnic University of Valencia
+Rovira i Virgili University
+Leibniz University Hannover
+Huazhong Agricultural University
+Xidian University
+West Virginia University
+Nanjing Medical University
+Baylor University
+Savoie Mont Blanc University
+Technical University of Dortmund
+Lehigh University
+University of Hawaii at Manoa
+La Trobe University
+University of Ferrara
+Rush University
+Federal University of Minas Gerais
+University of Tennessee Health Science Center
+Swarthmore College
+Novosibirsk State University
+Boston College
+University of Modena and Reggio Emilia
+Western Sydney University
+University of Surrey
+University of Hull
+University of Tromsø – The Arctic University of Norway
+Northwest A&amp;F University
+NOVA University of Lisbon
+Royal Holloway, University of London
+University of Canterbury
+University College Cork
+Wuhan University of Technology
+University of Potsdam
+University of Tehran
+University of Tartu
+National Yang Ming University
+University of South Australia
+RMIT University
+University of Zagreb
+Colorado School of Mines
+Bar Ilan University
+Ulsan National Institute of Science and Technology
+University of Bremen
+Georgia State University
+USI   University of Italian Speaking Switzerland
+University of Verona
+University of Rennes 1
+Carleton University
+Polytechnic University of Madrid
+University of Konstanz
+Hitotsubashi University
+Saint Petersburg University
+Northeastern University, China
+University of Arkansas   Fayetteville
+Rensselaer Polytechnic Institute
+Moscow Institute of Physics and Technology
+Tata Institute of Fundamental Research
+University of Nantes
+Medical University of Innsbruck
+Cairo University
+Ewha Womans University
+National Technical University of Athens
+Mahidol University
+Chiba University
+Fuzhou University
+China Medical University, Taiwan
+Jinan University
+Flinders University
+National Central University
+Clemson University
+Indian Institute of Technology Madras
+Mayo Clinic College of Medicine and Science
+Brunel University London
+San Diego State University
+Medical University of Graz
+Southwest University
+University of Graz
+University of Sherbrooke
+University of Jyväskylä
+Institut Agro
+Indian Institute of Technology Bombay
+China University of Petroleum
+University of Texas at Arlington
+Chang Gung University
+University of Delhi
+Palacký University Olomouc
+Middle East Technical University
+Illinois Institute of Technology
+University of Iceland
+Nanjing Tech University
+University of Minho
+Institute of Cancer Research, University of London
+University of Udine
+University of Pretoria
+Auburn University
+Swansea University
+University of Wisconsin–Milwaukee
+University of Burgundy
+University of Palermo
+Concordia University
+Masaryk University
+Bocconi University
+College of William &amp; Mary
+University of Nebraska Medical Center
+Eötvös Loránd University
+Haverford College
+Central China Normal University
+Czech Technical University in Prague
+Jiangsu University
+University Paris Est Créteil
+Brigham Young University
+CINVESTAV
+Polytechnic University of Turin
+University of Salerno
+Beijing Jiaotong University
+Jiangnan University
+University of Aveiro
+University of Cagliari
+University of Eastern Piedmont
+AGH University of Science and Technology
+Federal University of São Paulo
+Nanjing University of Information Science and Technology
+Comenius University in Bratislava
+University of St.Gallen
+Jeonbuk National University
+Sharif University of Technology
+National Research Nuclear University MEPhI
+St George's, University of London
+Utah State University
+University of Bayreuth
+University of Québec at Montreal
+Second Military Medical University
+National University of Ireland, Galway
+Rio de Janeiro State University
+National University of La Plata
+University of Brescia
+Indian Institute of Technology Delhi
+Toulouse INP
+University of La Laguna
+Institut national des sciences appliquées de Lyon
+Konkuk University
+Southern Medical University
+Bielefeld University
+Cold Spring Harbor Laboratory
+University of Plymouth
+Henryk Niewodniczański Institute of Nuclear Physics
+North China Electric Power University
+Ocean University of China
+Catholic University of Korea
+Courtauld Institute of Art
+Boğaziçi University
+China University of Mining and Technology
+Memorial University of Newfoundland
+National Polytechnic Institute
+University of New Hampshire
+Tilburg University
+Tehran University of Medical Sciences
+Southern University of Science and Technology
+Renmin University of China
+Nanjing Normal University
+Hefei University of Technology
+Donghua University
+University of Cantabria
+Hacettepe University
+Saarland University
+Ankara University
+Binghamton University
+Chung Ang University
+Shinshu University
+University of Macau
+Swinburne University of Technology
+University of Campania Luigi Vanvitelli
+Sciences Po
+Loughborough University
+Loyola University Chicago
+University of Texas Medical Branch
+Tokyo Metropolitan University
+University of Kent
+Roma Tre University
+University of Calabria
+Massey University
+University of Haifa
+Kanazawa University
+University of Wyoming
+University of Málaga
+Tokyo Medical and Dental University
+Istanbul University
+University of Johannesburg
+University of Texas at San Antonio
+University of Ioannina
+Zhejiang University of Technology
+University of Szeged
+University of Fribourg
+University of Maine, Orono
+Tianjin Medical University
+Istanbul Technical University
+Semmelweis University
+Nanchang University
+University of Nevada, Reno
+Warsaw University of Technology
+Vilnius University
+National University of Defense Technology
+Chungnam National University
+Yokohama City University
+Southwest Jiaotong University
+University of Salamanca
+Hong Kong Baptist University
+Isfahan University of Technology
+University of Debrecen
+National Chung Hsing University
+Oswaldo Cruz Foundation
+Victoria University of Wellington
+Heriot Watt University
+University of Oklahoma Health Sciences Center
+Inha University
+University of Crete
+Kumamoto University
+Otto von Guericke University Magdeburg
+King Fahd University of Petroleum and Minerals
+Northeast Normal University
+University of Greifswald
+Indian Institute of Technology Kharagpur
+Panjab University
+University of North Texas, Denton
+South China Normal University
+Taipei Medical University
+Mississippi State University
+University of Arkansas for Medical Sciences
+University of Missouri Kansas City
+Birkbeck, University of London
+International School for Advanced Studies
+Budker Institute of Nuclear Physics of the Siberian Branch of the Russian Academy of Sciences
+Montana State University   Bozeman
+University of Angers
+Yangzhou University
+Niigata University
+Qingdao University
+Central Party School of the Communist Party of China
+American University of Beirut
+Kangwon National University
+University of Maryland, Baltimore County
+Federal University of Santa Catarina
+University of Massachusetts Boston
+Bangor University
+Beijing University of Technology
+Antioch College
+Ajou University
+Army Medical University
+Tokyo University of Science
+University of Vigo
+Beijing University of Posts and Telecommunications
+University of Alaska Fairbanks
+Augusta University
+University of Salento
+Technical University of Braunschweig
+Quaid i Azam University
+SUNY Downstate Medical Center
+Guangdong University of Technology
+Osaka City University
+Northwest University, Xi'an
+University of Castilla–La Mancha
+Kitasato University
+University of Cyprus
+University of the Andes, Colombia
+University of Idaho
+Kent State University
+Amirkabir University of Technology
+Nanjing University of Posts and Telecommunications
+Yerevan Physics Institute
+University of Essex
+South China Agricultural University
+Sejong University
+Shaanxi Normal University
+Air Force Medical University
+University of Wuppertal
+Institute for Nuclear Research of the Russian Academy of Sciences
+Graduate Faculty, General Research Institute For Nonferrous Metals
+University of Lübeck
+Yeungnam University
+University of Split
+Centrale Lille Institut
+University of Girona
+Örebro University
+Hohai University
+Shanxi University
+University of the Balearic Islands
+University of Montana
+Ohio University
+University of Murcia
+National Taiwan University of Science and Technology
+Gwangju Institute of Science and Technology
+University of Science, Malaysia
+Federal University of Paraná
+Marche Polytechnic University
+Belarusian State University
+Kaohsiung Medical University
+University of Natural Resources and Life Sciences, Vienna
+Sorbonne Paris Nord University
+Wenzhou Medical University
+Northern Illinois University
+L.D. Landau Institute for Theoretical Physics of the Russian Academy of Sciences
+University of Córdoba, Spain
+National Sun Yat sen University
+University of Patras
+Norwegian University of Life Sciences
+Tarbiat Modares University
+Harbin Medical University
+University of Hohenheim
+Guangzhou Medical University
+University of North Carolina at Charlotte
+Ain Shams University
+Carl von Ossietzky University of Oldenburg
+Gyeongsang National University
+China Medical University, PRC
+University of Siegen
+Gustave Eiffel University
+University of Jinan
+Beijing Forestry University
+Putra University, Malaysia
+University of L'Aquila
+Kindai University
+Nagasaki University
+COMSATS University Islamabad
+Polytechnic University of Bari
+Brazilian Center for Research in Physics (CBPF)
+University of Rhode Island
+Open University, UK
+Carlos III University of Madrid
+University of Denver
+National University of Colombia
+University of Toledo
+Indian Institute of Technology Kanpur
+Adam Mickiewicz University in Poznań
+Shizuoka University
+University of Basilicata
+Miami University
+Jawaharlal Nehru University
+Old Dominion University
+University of Concepción
+Harbin Engineering University
+University of Alcalá
+Graz University of Technology
+Ryerson University
+Getúlio Vargas Foundation
+University of Tours
+University of Nevada, Las Vegas
+Jawaharlal Nehru Centre for Advanced Scientific Research
+Federico Santa María Technical University
+Hasselt University
+University of Messina
+University of Wrocław
+Juntendo University
+Ege University
+Aberystwyth University
+Federal University of Pernambuco
+Benemérita Autonomous University of Puebla
+Rutgers University–Newark
+Gazi University
+University of Alicante
+Wesleyan University
+University of California, Merced
+Cranfield University
+University of Mons
+University of Louisiana at Lafayette
+Liverpool John Moores University
+Ivane Javakhishvili Tbilisi State University
+Jean Monnet University
+Sofia University
+Graduate University for Advanced Studies
+Banaras Hindu University
+INSA Toulouse
+All India Institute of Medical Sciences, New Delhi
+Uniformed Services University of the Health Sciences
+Indian Institute of Technology Roorkee
+Northern Arizona University
+Tomsk State University
+Technical University of Kaiserslautern
+University of Luxembourg
+City, University of London
+Anhui University
+Murdoch University
+Chongqing Medical University
+University of Orléans
+Southern Illinois University Carbondale
+Babeș Bolyai University
+University of Brasília
+Henan University
+University of Brighton
+Dongguk University
+National Centre for Nuclear Research
+University of Insubria
+University of Akron
+Hangzhou Normal University
+Iran University of Science and Technology
+National Research University Higher School of Economics
+Shandong University of Science and Technology
+China Pharmaceutical University
+National University of Malaysia (UKM)
+Norwegian School of Economics
+Portland State University
+Budapest University of Technology and Economics
+Jaume I University
+University of Seoul
+Gachon University
+Polytechnic University of Bucharest
+Peter the Great St. Petersburg Polytechnic University
+New Mexico State University
+Nihon University
+University of Stirling
+Federal University of ABC
+University of Hyogo
+East Carolina University
+ShanghaiTech University
+Inje University
+University of Technology, Malaysia
+Keele University
+University of Valladolid
+Michigan Technological University
+Guangxi University
+North Dakota State University
+Ningbo University
+University of Portsmouth
+London Business School
+Institut national de la recherche scientifique
+Oberlin College
+Federal University of Viçosa
+Çukurova University
+University of Windsor
+Tokushima University
+Missouri University of Science and Technology
+University of Poitiers
+Paul Valéry University
+University of Science and Technology, Korea
+Zhejiang Normal University
+Ulster University
+Northumbria University
+Meijo University
+North West University
+Shandong First Medical University &amp; Shandong Academy of Medical Sciences
+Johannes Kepler University Linz
+V.A. Engelhardt Institute of Molecular Biology of the Russian Academy of Sciences
+Pepperdine University
+Federal University of Ceará
+Federal University of Pelotas
+Gabriele d’Annunzio University
+Ritsumeikan University
+Claremont McKenna College
+Makerere University
+Shiraz University
+Bucknell University
+Chungbuk National University
+Indian Institute of Technology Guwahati
+University of the Republic, Uruguay
+Bilkent University
+National University of Córdoba
+Sanford Burnham Prebys Medical Discovery Institute
+Medical University of Warsaw
+Chiang Mai University
+Khalifa University
+Mohammed V University
+Colgate University
+New Jersey Institute of Technology
+Lappeenranta University of Technology
+Tokyo University of Agriculture and Technology
+University of Regina
+Tunis El Manar University
+Anhui Medical University
+University of Franche Comté
+Autonomous University of San Luis Potosí
+Yanshan University
+Aston University
+University of Naples Parthenope
+Pomona College
+Qingdao University of Science and Technology
+Shandong Agricultural University
+King Juan Carlos University
+University of Limerick
+Ehime University
+University of Memphis
+Xiangtan University
+Tokai University
+Federal University of São Carlos
+University of Upper Alsace
+Victoria University
+University of Sassari
+University of Texas Rio Grande Valley
+Ferdowsi University of Mashhad
+Shandong Normal University
+Taiyuan University of Technology
+Wroclaw Medical University
+Gifu University
+Florida Institute of Technology
+Fluminense Federal University
+Hunter College
+Qatar University
+Henan Normal University
+ITMO University
+Mansoura University
+Wrocław University of Science and Technology
+Miguel Hernández University of Elche
+Federal University of Juiz de Fora
+Shahid Beheshti University of Medical Sciences
+Cheung Kong Graduate School of Business
+Fujian Agriculture and Forestry University
+Osaka Prefecture University
+Shanghai Normal University
+University of A Coruña
+University of Tabriz
+Hunan Normal University
+Hallym University
+Marmara University
+Hangzhou Dianzi University
+Alexandria University
+American University
+University of Extremadura
+Federal University of Rio Grande do Norte
+Capital Normal University
+Creighton University
+Louisiana Tech University
+Yamagata University
+Tokyo Women's Medical University
+University of Toyama
+University of Mannheim
+University of Bucharest
+VetAgro Sup
+Academy of Scientific &amp; Innovative Research
+Kunming University of Science and Technology
+Medical University of Lodz
+Sogang University
+Nicolaus Copernicus University
+Nantong University
+Yunnan University
+Federal University of Bahia
+United States Naval Academy
+University of Shanghai for Science and Technology
+University of Texas at El Paso
+National Taiwan Normal University
+SUNY Upstate Medical University
+Royal College of Surgeons in Ireland
+Federal University of Santa Maria
+Babson College
+Mohamed First University Oujda
+Chuo University
+Rouen Normandy University
+Brandenburg University of Technology
+Jadavpur University
+Manhattan College
+Cadi Ayyad University
+Guangzhou University
+University of New England, Australia
+Edith Cowan University
+École nationale supérieure de chimie de Montpellier
+Sichuan Agricultural University
+Gaziantep University
+Qufu Normal University
+Nanjing Forestry University
+Villanova University
+Dublin City University
+Yıldız Technical University
+National Taipei University of Technology
+Paderborn University
+Kagoshima University
+Gunma University
+University of Urbino
+IMT Atlantique
+University of South Bohemia
+University of Augsburg
+University of New Brunswick
+Rochester Institute of Technology
+Smith College
+Auckland University of Technology
+Fordham University
+University of Maribor
+University of Cádiz
+Federal University of Goiás
+University of Puerto Rico at Mayagüez
+University of Antioquia
+Nara Institute of Science and Technology
+Florida Atlantic University
+Australian Catholic University
+Kazan Federal University
+Worcester Polytechnic Institute
+Dankook University
+University of Salzburg
+Singapore University of Technology and Design
+Jichi Medical University
+Kharkov Institute of Physics and Technology
+University of Jaén
+Hassan II University of Casablanca
+Fujian Normal University
+University of North Carolina at Greensboro
+Institute of Solid State Physics of the Russian Academy of Sciences
+Mersin University
+Medical University of Silesia
+Paracelsus Medical University
+Aga Khan University
+Zhejiang Sci Tech University
+University of Novi Sad
+Fujian Medical University
+Nagoya City University
+Medical University of Gdańsk
+Charles Darwin University
+Åbo Akademi University
+University of Pécs
+Charles Sturt University
+Indian Association for the Cultivation of Science
+Pablo de Olavide University
+University of Lleida
+Toho University
+College of the Holy Cross
+University of Calcutta
+Liverpool School of Tropical Medicine
+University of Hertfordshire
+Copenhagen Business School
+Loma Linda University
+Visva Bharati University
+University of Thessaly
+University of Veterinary Medicine, Vienna
+Shahid Beheshti University
+Teikyo University
+University of Neuchâtel
+Maria Sklodowska Curie National Research Institute of Oncology
+University of Kassel
+University of Évry Val d'Essonne
+Manchester Metropolitan University
+Institute of Science and Technology Austria
+University of Waikato
+University of Canberra
+University of Massachusetts Lowell
+University of Chemistry and Technology, Prague
+California State University, Fresno
+Chemnitz University of Technology
+Soonchunhyang University
+Hubei University
+National Institute of Public Health (INSP)
+South Dakota State University
+Ramon Llull University
+Indian Institute of Science Education and Research, Pune
+Kyoto Prefectural University of Medicine
+Tokat Gaziosmanpaşa University
+Tiangong University
+Postgraduate Institute of Medical Education and Research
+Shantou University
+Ural Federal University
+Shanghai University of Finance and Economics
+Metropolitan Autonomous University
+San Francisco State University
+Federal University of São João del Rei
+Wright State University
+Marquette University
+New York Medical College
+University of Silesia in Katowice
+Aligarh Muslim University
+National Defense Medical Center
+Mie University
+Dokuz Eylül University
+University of Sfax
+Yamaguchi University
+İzmir Institute of Technology
+École centrale de Lyon
+Jiangsu Normal University
+Hofstra University
+Howard University
+Addis Ababa University
+Bowdoin College
+Pukyong National University
+United States Military Academy
+Luleå University of Technology
+Stevens Institute of Technology
+Ibero American University
+Chung Shan Medical University
+Jacobs University
+Magna Graecia University of Catanzaro
+Koç University
+University of Las Palmas de Gran Canaria
+West University of Timișoara
+University of the Free State
+Guizhou University
+Osnabrück University
+University of Yamanashi
+University of Ibadan
+Anna University
+Santa Clara University
+University of Missouri St. Louis
+Hebei University of Technology
+Khon Kaen University
+Maynooth University
+Adıyaman University
+University of Western Brittany
+Sant'Anna School of Advanced Studies
+Nippon Medical School
+University of Dayton
+California Polytechnic State University, San Luis Obispo
+Tokyo Medical University
+TOBB University of Economics and Technology
+Wilfrid Laurier University
+Poznan University of Medical Sciences
+Changzhou University
+Prince of Songkla University
+Nottingham Trent University
+Northeast Forestry University
+Tianjin University of Technology
+Clark University
+Assiut University
+Asia University, Taiwan
+Oakland University
+University of North Dakota
+Indian Agricultural Research Institute
+Kanazawa Institute of Technology
+Erciyes University
+Albany Medical College
+Kafkas University
+Federal University of Mato Grosso do Sul
+Tomsk Polytechnic University
+Menlo College
+Nanjing University of Chinese Medicine
+University of Alabama in Huntsville
+Macau University of Science and Technology
+Asian Institute of Management
+Fu Jen Catholic University
+University of Gdańsk
+Jikei University
+Suez Canal University
+University of the Ryukyus
+Yokohama National University
+Federal University of Pará
+Toulouse 1 Capitole University
+University of Bradford
+University of Picardie Jules Verne
+University of Puerto Rico, Medical Sciences Campus
+Carol Davila University of Medicine and Pharmacy
+Hebei University
+Huaqiao University
+Dong A University
+Monterrey Institute of Technology and Higher Education
+Andrés Bello University
+Brock University
+Dalian Maritime University
+University of the West of England, Bristol
+Catholic University of America
+Conservatoire national des arts et métiers
+Jiangxi Normal University
+Nagasaki Institute of Applied Science
+Federal University of Paraíba
+Hunan Agricultural University
+University of Lodz
+Dalian Medical University
+Northeast Agricultural University
+Daegu Gyeongbuk Institute of Science and Technology
+University of Hyderabad
+Gran Sasso Science Institute
+Süleyman Demirel University
+University of Western Cape
+Texas State University
+Fujita Health University
+Federal University of Espírito Santo
+Saitama Medical University
+University of Algarve
+University of Southern Queensland
+Chung Yuan Christian University
+Saitama University
+Boise State University
+Henan University of Science and Technology
+SOAS University of London
+University of Namur
+Kasetsart University
+Kōchi University
+United Arab Emirates University
+University of the Punjab
+Ca' Foscari University of Venice
+Czech University of Life Sciences Prague
+Austral University of Chile
+Public University of Navarre
+Qilu University of Technology
+K. N. Toosi University of Technology
+École supérieure de chimie, physique, électronique de Lyon
+Saga University
+Wenzhou University
+XLRI   Xavier School of Management
+Vietnam National University, Hanoi
+Hirosaki University
+University of Camerino
+Guangxi Medical University
+Federal University of Uberlândia
+SUNY College of Environmental Science and Forestry
+Bowling Green State University
+Tottori University
+Tuscia University
+National Institute for Space Research (INPE)
+Institute of Physics, Azerbaijan National Academy of Sciences
+Chang'an University
+Linnaeus University
+National University of Distance Education
+Lakehead University
+Vellore Institute of Technology
+Bournemouth University
+Campus Bio Medico University
+University of Pau and Pays de l'Adour
+Hyogo College of Medicine
+State University of Maringá
+University of Almería
+Hebei Medical University
+California State University, Fullerton
+Keimyung University
+Hampton University
+Xi'an University of Technology
+ESSEC Business School
+California State University, Northridge
+École des Hautes Études en Sciences Sociales
+Medical University Sofia
+Zagazig University
+Brno University of Technology
+Showa University
+Fukuoka University
+National Taiwan Ocean University
+Heilongjiang University
+Hiroshima Institute of Technology
+Atatürk University
+Shanghai University of Traditional Chinese Medicine
+Trent University
+Shenyang Pharmaceutical University
+University of Foggia
+University of Miyazaki
+Chosun University
+Babol Noshirvani University of Technology
+Pavol Jozef Šafárik University in Košice
+Rhodes University
+Anhui Normal University
+Fayoum University
+Kurume University
+Federal University of Lavras
+Erzincan Binali Yıldırım University
+National University of Science and Technology MISiS
+Zhejiang A&amp;F University
+University of Yaoundé I
+Warsaw University of Life Sciences
+Autonomous University of Nuevo León
+Wuhan University of Science and Technology
+Gdańsk University of Technology
+Soongsil University
+University of León
+Hainan University
+University of Limoges
+Mashhad University of Medical Sciences
+National Kaohsiung University of Science and Technology
+Kuwait University
+National University of Rosario
+University of Central Lancashire
+National Chung Cheng University
+National Chengchi University
+Antonio Nariño University
+Coventry University
+Uludağ University
+University of Agriculture Faisalabad
+University of Ghana
+Okinawa Institute of Science and Technology
+Southern Cross University
+University of Carthage
+Isfahan University of Medical Sciences
+Ontario Tech University
+University of Malawi
+Selçuk University
+Oxford Brookes University
+Kwansei Gakuin University
+Jordan University of Science and Technology
+Democritus University of Thrace
+British University in Egypt
+Skolkovo Institute of Science and Technology
+Guangxi Normal University
+University of Guadalajara
+Lodz University of Technology
+University of Toulouse Jean Jaurès
+University of Monastir
+University of Stavanger
+Southwest University of Science and Technology
+San Jose State University
+Singapore Management University
+Western Michigan University
+University of Greenwich
+Changsha University of Science and Technology
+University of South Alabama
+Institute of Tropical Medicine Antwerp
+Carleton College
+Shimane University
+CY Cergy Paris University
+Istanbul University Cerrahpaşa
+Indian Institute of Science Education and Research, Kolkata
+University of the Aegean
+Nagoya Institute of Technology
+University of Perpignan
+University of Costa Rica
+Henan Polytechnic University
+Bohai University
+Sultan Qaboos University
+Özyeğin University
+National Institute of Technology, Rourkela
+Iran University of Medical Sciences
+Southwest Petroleum University
+University of Electro Communications
+University of Santiago, Chile
+Feng Chia University
+Southwestern University of Finance and Economics
+Savitribai Phule Pune University
+University of Reims Champagne Ardenne
+École de technologie supérieure
+Institute for Pure and Applied Mathematics (IMPA)
+Grinnell College
+Williams College
+Jeju National University
+Royal Veterinary College
+Manipal Academy of Higher Education
+Silesian University of Technology
+University of the Sunshine Coast
+Taras Shevchenko National University of Kyiv
+California State University, Long Beach
+China Jiliang University
+University of Occupational and Environmental Health Japan
+Cha University
+University of Beira Interior
+Wuhan Institute of Technology
+Akdeniz University
+Xuzhou Medical University
+University of Isfahan
+Clarkson University
+Leuphana University of Lüneburg
+Michoacán University of San Nicolás of Hidalgo
+Fairfield University
+Northwest Normal University
+Xinjiang University
+University of South Africa
+Doshisha University
+University of Lethbridge
+Pontifical Catholic University of Rio Grande do Sul
+University of South Dakota
+University of Minnesota Duluth
+University of Nairobi
+Hanken School of Economics
+State University of Londrina
+University of Southern Mississippi
+Tôn Đức Thắng University
+Doğuş University
+Liaocheng University
+Baruch College
+University of Jordan
+Kagawa University
+Tianjin University of Science and Technology
+Jiangsu University of Science and Technology
+V.A. Steklov Mathematical Institute of the Russian Academy of Sciences
+Fukushima Medical University
+Shiga University of Medical Science
+Pontifical Catholic University of Valparaíso
+University of South China
+University of Huelva
+King Saud bin Abdulaziz University for Health Sciences
+Kwame Nkrumah University of Science and Technology
+Karadeniz Technical University
+Technical University of Ilmenau
+Witten Herdecke University
+University of Évora
+Tamkang University
+Tallinn University of Technology
+Kyoto University of Education
+Ilia State University
+Education University of Hong Kong
+Texas Tech University Health Sciences Center
+Alexandru Ioan Cuza University of Iaşi
+Nova Southeastern University
+University of Caen Normandy
+University of San Francisco
+National University of Sciences and Technology
+Freiberg University of Mining and Technology
+Henan Agricultural University
+University of Salford
+Guglielmo Marconi University
+I Shou University
+Yuan Ze University
+National University of Cuyo
+Lincoln University
+University of Trás os Montes and Alto Douro
+University of Veterinary Medicine Hanover
+University of La Frontera
+Hamburg University of Technology
+Sapporo Medical University
+Ball State University
+Anhui University of Technology
+Ochanomizu University
+Tanta University
+Arts et Métiers Sciences et Technologies
+South Central University for Nationalities
+Central Michigan University
+Anglia Ruskin University
+University of Lincoln
+Federal University of Technology   Paraná
+Institute of Applied Physics of the Russian Academy of Sciences
+Kookmin University
+Duy Tân University
+Illinois State University
+Myongji University
+Ibaraki University
+École nationale vétérinaire d'Alfort
+Shiraz University of Medical Sciences
+Zhejiang Gongshang University
+Iuliu Hațieganu University of Medicine and Pharmacy
+National Institute of Amazonian Research (INPA)
+Texas Christian University
+National University of the Littoral
+University of Avignon
+University of Tulsa
+Fırat University
+Maria Curie Skłodowska University
+Montclair State University
+Incheon National University
+Kyushu Institute of Technology
+Pomeranian Medical University in Szczecin
+Western Norway University of Applied Sciences
+Istanbul Bilgi University
+Hamamatsu University School of Medicine
+Shanghai Ocean University
+Chongqing University of Posts and Telecommunications
+University of Guilan
+DePaul University
+University of Sannio
+Hebei Normal University
+Seoul National University of Science and Technology
+Poznań University of Technology
+Queens College, City University of New York
+Qingdao Agricultural University
+Utah Valley University
+Istanbul Aydın University
+Eastern Virginia Medical School
+Vienna University of Economics and Business
+Cayetano Heredia Peruvian University
+University of Huddersfield
+Indian Institute of Technology (Indian School of Mines), Dhanbad
+Helwan University
+Indian Institute of Technology Indore
+Razi University
+Guangzhou University of Chinese Medicine
+Poznań University of Life Sciences
+University of Rijeka
+International Islamic University Malaysia
+Federal Institute of Education, Science and Technology of Rio Grande do Sul
+Indian Institute of Technology (BHU) Varanasi
+Tabriz University of Medical Sciences
+Rikkyo University
+Federal University of Sergipe
+Wakayama Medical University
+Sabancı University
+Medical University of Lublin
+University of Guanajuato
+University of Latvia
+Thapar Institute of Engineering and Technology
+N.N. Semenov Institute of Chemical Physics of the Russian Academy of Sciences
+Shaanxi University of Science and Technology
+Middlesex University
+Shihezi University
+Lobachevsky University
+Norwegian School of Sport Sciences
+National University of Mar del Plata
+Trinity University
+Ohio Wesleyan University
+Guilin University of Electronic Technology
+Pontifical Catholic University of Rio de Janeiro
+Birla Institute of Technology and Science, Pilani
+King Mongkut's University of Technology Thonburi
+North China University of Science and Technology
+Semnan University
+Lanzhou University of Technology
+De Montfort University
+Shanxi Medical University
+Cooper Union
+Indian Statistical Institute, Kolkata
+Bu Ali Sina University
+Claremont Graduate University
+University of Zambia
+Cleveland State University
+Shanghai Maritime University
+Pontifical Javeriana University
+Inner Mongolia University
+MARA University of Technology
+Slovak University of Technology in Bratislava
+Tamil Nadu Dr. M.G.R. Medical University
+Anhui Agricultural University
+Sheffield Hallam University
+China Three Gorges University
+Yantai University
+Tianjin Normal University
+Pontifical Catholic University of Peru
+Beni Suef University
+University of Trier
+Iwate Medical University
+Al Azhar University
+Glasgow Caledonian University
+University of Niš
+Harokopio University
+Indian Institute of Technology Hyderabad
+Georgia Southern University
+University Paris 1 Panthéon Sorbonne
+Liaoning University
+Lithuanian University of Health Sciences
+University of Fukui
+Kongju National University
+Kwangwoon University
+National Dong Hwa University
+Krasnoyarsk Science Center of the Siberian Branch of the Russian Academy of Sciences
+Federal Rural University of Pernambuco
+University of Massachusetts Dartmouth
+University of Agder
+Aichi Medical University
+Shahid Bahonar University of Kerman
+University of Valparaíso
+Kunming Medical University
+Brooklyn College
+University of Peradeniya
+Chengdu University of Technology
+Polytechnic University of Cartagena
+Iwate University
+Indian Institute of Management Calcutta
+University of Warmia and Mazury in Olsztyn
+Shenyang Agricultural University
+North University of China
+Rowan University
+Wonkwang University
+Ariel University
+Sechenov University
+Harbin University of Science and Technology
+Medical University of Białystok
+National Institute of Technology, Tiruchirappalli
+University of North Carolina Wilmington
+Gangneung Wonju National University
+Laurentian University
+University of Indonesia
+Vietnam National University, Ho Chi Minh City
+Mimar Sinan Fine Arts University
+Nara Medical University
+Polytechnic University of Hauts de France
+Bharathiar University
+Ondokuz Mayıs University
+Space Research Institute of the Russian Academy of Sciences
+Kocaeli University
+Yangtze University
+Western Washington University
+California State University, Los Angeles
+University of La Rioja
+Nelson Mandela University
+Hunan University of Science and Technology
+University of New Orleans
+Beijing University of Chinese Medicine
+Peoples' Friendship University of Russia
+University of South Wales
+Kingston University
+Beaux Arts de Paris
+Grigore T. Popa University of Medicine and Pharmacy
+National University of the South
+Irkutsk Scientific Center of the Siberian Branch of the Russian Academy of Sciences
+University of Leoben
+Tzu Chi University
+Chapman University
+University of Kashan
+University of Molise
+Catholic University of the North
+College of Charleston
+A.M. Prokhorov General Physics Institute of the Russian Academy of Sciences
+Jackson State University
+Southern Federal University
+Open University of Catalonia
+University of Kragujevac
+Thammasat University
+Kyorin University
+Guangdong Medical University
+Changchun University of Science and Technology
+Payame Noor University
+Shandong University of Technology
+Estonian University of Life Sciences
+Georgian Technical University
+Agricultural University of Athens
+ISCTE – University Institute of Lisbon
+University of Québec at Trois Rivières
+Transilvania University of Brașov
+Homi Bhabha National Institute
+Xi'an University of Architecture and Technology
+Yazd University
+Central European University
+Comillas Pontifical University
+Anadolu University
+James Madison University
+Naval Postgraduate School
+University of Westminster
+University of Ruhuna
+Akita University
+Indian Institute of Technology Bhubaneswar
+Institute for Nuclear Research of the National Academy of Sciences of Ukraine
+Central Queensland University
+Institute of Physics, Polish Academy of Sciences
+PLA University of Science and Technology
+University of Jammu
+Menoufia University
+St. John's University
+Zhejiang Chinese Medical University
+AgroSup Dijon
+Catholic University of Portugal
+University of the West of Scotland
+Marshall University
+Federal University of Rio Grande
+Pontifical Catholic University of Paraná
+Beijing Technology and Business University
+Japan Advanced Institute of Science and Technology
+Appalachian State University
+Oslo Metropolitan University
+University of Malta
+South Dakota School of Mines and Technology
+University of Rajasthan
+Amrita Vishwa Vidyapeetham
+University of San Francisco, Quito
+G.K. Boreskov Institute of Catalysis of the Siberian Branch of the Russian Academy of Sciences
+University of Arkansas at Little Rock
+BI Norwegian Business School
+Nanchang Hangkong University
+Hongik University
+Urmia University
+University of Gondar
+Saint Mary's University
+Henan University of Technology
+Jamia Millia Islamia
+University of Cassino and Southern Lazio
+Idaho State University
+Technical University of Crete
+Dongguan University of Technology
+New Mexico Institute of Mining and Technology
+V.M. Glushkov Institute of Cybernetics of the National Academy of Sciences of Ukraine
+Roskilde University
+Union College
+Shanghai University of Electric Power
+St. Marianna University School of Medicine
+Washington and Lee University
+Eskişehir Osmangazi University
+Sookmyung Women's University
+Mendel University in Brno
+California State University, Sacramento
+Architectural Association School of Architecture
+University of Shizuoka
+University of Koblenz Landau
+University of Puerto Rico, Río Piedras Campus
+Cyprus University of Technology
+University of South Eastern Norway
+IFP School
+Eulji University
+University of the Philippines Manila
+Federation University Australia
+N.N. Bogolyubov Institute for Theoretical Physics of the National Academy of Sciences of Ukraine
+Diego Portales University
+Free University of Bozen Bolzano
+University of La Rochelle
+Kütahya Dumlupınar University
+Kyoto Institute of Technology
+Federal University of Mato Grosso
+Oita University
+Hamilton College
+University of Zimbabwe
+Zhengzhou University of Light Industry
+Suranaree University of Technology
+Kansai Medical University
+Mae Fah Luang University
+University of Technology of Belfort Montbéliard
+Hankuk University of Foreign Studies
+Dokkyo Medical University
+A.N. Nesmeyanov Institute of Organoelement Compounds of the Russian Academy of Sciences
+Yunnan Normal University
+University of Technology of Compiègne
+Düsseldorf Art Academy
+University of Sharjah
+Moscow Conservatory
+A.A. Kharkevich Institute for Information Transmission Problems of the Russian Academy of Sciences
+Humanitas University
+Kanagawa University
+East Tennessee State University
+University of Notre Dame Australia
+Ludong University
+China West Normal University
+Hebei Agricultural University
+Sanjay Gandhi Postgraduate Institute of Medical Sciences
+Institut supérieur de l'aéronautique et de l'espace
+Bahçeşehir University
+Central University of Venezuela
+Zhongnan University of Economics and Law
+Technological Institute of Aeronautics
+European University Institute
+Catholic University of Daegu
+Shanghai Institute of Technology
+Meiji University
+Guru Nanak Dev University
+Towson University
+National United University
+Kennesaw State University
+Mid Sweden University
+Manisa Celal Bayar University
+Polytechnic Institute of Porto
+Xinjiang Medical University
+University of Peshawar
+University of Zielona Góra
+University of Bialystok
+University of Agriculture in Krakow
+Federal University of Campina Grande
+Goldsmiths, University of London
+University of Mazandaran
+King Khalid University
+Nara Women's University
+A.V. Nikolaev Institute of Inorganic Chemistry of the Siberian Branch of the Russian Academy of Sciences
+Guilin University of Technology
+Wellesley College
+Kawasaki Medical School
+Xinyang Normal University
+Franklin &amp; Marshall College
+Tunghai University
+Sichuan Normal University
+Minia University
+University of the Philippines Diliman
+Federal University of Triângulo Mineiro
+Alfaisal University
+University of Winnipeg
+Pamukkale University
+Chubu University
+Institute of Physical Chemistry, Polish Academy of Sciences
+Kyoto Sangyo University
+Karlstad University
+Kaunas University of Technology
+Federal University of Ouro Preto
+Xi'an Jiaotong Liverpool University
+University of Valle
+University of Dhaka
+University of Nova Gorica
+Embry Riddle Aeronautical University
+University of Science and Technology Houari Boumediene
+Autonomous University of Sinaloa
+National University of Comahue
+Bahauddin Zakariya University
+Xinxiang Medical University
+PETRONAS University of Technology
+Industrial University of Santander
+Taibah University
+Sakarya University
+Guangdong Pharmaceutical University
+National Defense Medical College
+University of Toulon
+University of Burgos
+Hamad Bin Khalifa University
+University of Madras
+Wrocław University of Environmental and Life Sciences
+University of Alaska Anchorage
+International University of Health and Welfare
+University of Talca
+Florida Agricultural and Mechanical University
+University of the Highlands and Islands
+Malmö University
+M.M. Shemyakin and Y.A. Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences
+Rajiv Gandhi University of Health Sciences
+Indian Institute of Science Education and Research, Bhopal
+ESCP Europe
+Drew University
+Central South University of Forestry and Technology
+Bond University
+Annamalai University
+Mediterranean University of Reggio Calabria
+Osaka Medical College
+Federal University of Alagoas
+Near East University
+Government College University Faisalabad
+Başkent University
+Far Eastern Federal University
+Necmettin Erbakan University
+University of La Réunion
+Institute of Chemical Technology, Mumbai
+IHE Delft Institute for Water Education
+Interdisciplinary Center Herzliya
+University of Nigeria
+Kettering University
+Linyi University
+N.D. Zelinsky Institute of Organic Chemistry of the Russian Academy of Sciences
+Cracow University of Technology
+Benha University
+Le Mans University
+Duquesne University
+West Pomeranian University of Technology, Szczecin
+Mekelle University
+Federal Rural University of Rio de Janeiro
+Muhimbili University of Health and Allied Sciences
+Indian Institute of Technology Gandhinagar
+University of Karachi
+Hanbat National University
+College of Staten Island
+Southwest Medical University
+National Yunlin University of Science and Technology
+University of Northern British Columbia
+University of Ostrava
+Sohag University
+Institute of Ecology (INECOL)
+Technical University of Ostrava
+University of Richmond
+Shiraz University of Technology
+University of Kurdistan
+Liaoning Normal University
+Jönköping University
+Wichita State University
+University of Roehampton
+Indian Institute of Engineering Science and Technology, Shibpur
+National Changhua University of Education
+Çağ University
+Liaoning University of Technology
+Gebze Technical University
+Van Yüzüncü Yıl University
+National Chiayi University
+V.S. Sobolev Institute of Geology and Mineralogy of the Siberian Branch of the Russian Academy of Sciences
+Technological University Dublin
+Kanazawa Medical University
+Amity University
+University of West Bohemia
+Jiaxing University
+Jilin Agricultural University
+Chongqing Technology and Business University
+Edinburgh Napier University
+Cheikh Anta Diop University of Dakar
+Rosalind Franklin University of Medicine and Science
+Federal University of Piauí
+Nagaoka University of Technology
+University of Rzeszów
+Autonomous University of Chile
+Chongqing Normal University
+Aoyama Gakuin University
+Kansai University
+Tezpur University
+Shanghai University of Engineering Science
+Imam Abdulrahman Bin Faisal University
+Harbin Normal University
+Sunchon National University
+Kermanshah University of Medical Sciences
+Nazarbayev University
+Siberian Federal University
+Autonomous University of the State of Morelos
+Clausthal University of Technology
+University of Colorado Colorado Springs
+Ningxia Medical University
+Victor Babeș University of Medicine and Pharmacy, Timișoara
+Federal Scientific Research Centre «Crystallography and Photonics» of the Russian Academy of Sciences
+Sivas Cumhuriyet University
+Central University of Finance and Economics
+Daegu University
+Çanakkale Onsekiz Mart University
+Graduate School &amp; Training Center, Research Institute of Petroleum Exploration and Development
+University of Djillali Liabès, Sidi Bel Abbès
+Center for Scientific Research and Higher Education of Ensenada
+Dicle University
+Lebanese University
+University of San Diego
+Jimma University
+İnönü University
+Gakushuin University
+Baqiyatallah University of Medical Sciences
+Ss. Cyril and Methodius University in Skopje
+Federal University of Amazonas
+University of Québec at Chicoutimi
+Indian Institute of Science Education and Research, Thiruvananthapuram
+Hubei University of Technology
+University of Pannonia
+Tshwane University of Technology
+Punjab Agricultural University
+Air Force Engineering University
+Reed College
+Hanoi University of Science and Technology
+Leeds Beckett University
+Tokyo University of Pharmacy and Life Sciences
+Guizhou Medical University
+Northeast Ohio Medical University
+Josip Juraj Strossmayer University of Osijek
+SRM Institute of Science and Technology
+Dongbei University of Finance and Economics
+University of Bergamo
+University of Wolverhampton
+Chengdu University of Information Technology
+Ahvaz Jundishapur University of Medical Sciences
+B. Verkin Institute for Low Temperature Physics and Engineering of the National Academy of Sciences of Ukraine
+Reykjavík University
+Jiangxi Agricultural University
+Dalarna University
+Open University of the Netherlands
+Vilnius Gediminas Technical University
+University of Veracruz
+Mazandaran University of Medical Sciences
+Danube University Krems
+Shahrood University of Technology
+National University of Tucumán
+University of International Business and Economics
+Institute of Problems of Chemical Physics of the Russian Academy of Sciences
+SASTRA
+Pondicherry University
+Sam Houston State University
+Sophia University
+University of Sousse
+Shanxi Normal University
+National Institute of Mental Health and Neurosciences
+Polytechnic Institute of Bragança
+East China University of Technology
+Shahid Chamran University of Ahvaz
+University of Hawaii at Hilo
+University of North Florida
+Trinity College
+Riga Technical University
+Sonoma State University
+National Institute of Pharmaceutical Education and Research, S.A.S. Nagar
+Gadjah Mada University
+Santa Catarina State University
+Yancheng Institute of Technology
+Xi'an University of Science and Technology
+CEU San Pablo University
+Huzhou University

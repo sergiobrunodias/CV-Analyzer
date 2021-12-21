@@ -1,43 +1,21 @@
-import React, { useEffect, useState, } from 'react';
-import logo from './images/resume.svg';
-import './App.css';
-import FileDropZone from './components/FileDropZone';
-import API from './api/API';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
+import ResumeInfo from "./pages/ResumeInfo"
+import ResumeUpload from "./pages/ResumeUpload"
 
-function App() {
-
-  const [text, setText] = useState("");
-  const [uploadVisible, setUploadVisible] = useState(true)
-
-  const sendFileToServer= async (data: any) => {
-      await new API().uploadFile(data);
-  }
-
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p style={styles.title}>
-          Upload your cv and a job offer <br/>
-          To check if you are suited for the job!
-        </p>
-        <img src={logo} className="App-logo" alt="logo" style={{height: 100, width: 100 }}/>
-        <p>
-          {text}
-        </p>
-        {
-          uploadVisible?
-            <FileDropZone onDataExtract={sendFileToServer}/> : null
-        }
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ResumeUpload />} />
+        <Route path="/info" element={<ResumeInfo />} />
+      </Routes>
+    </Router>
   );
-}
-
-const styles = {
-  title: {
-    fontWeight: 'bold',
-    fontSize: 30
-  },
 }
 
 export default App;

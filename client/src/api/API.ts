@@ -21,8 +21,8 @@ export default class API {
 
     async uploadFile(fileData: Object) {
         const url = this.buildURL('upload_cv');
-        await axios.post(url, fileData).then((response: any) => {
-            console.log(response);
-        })
+        const promise = axios.post(url, fileData);
+        const dataPromise = promise.then((response) => response)
+        return dataPromise;
     }
 }

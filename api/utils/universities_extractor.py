@@ -5,7 +5,6 @@ logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
 def build_file():
-    logger.info("aaa")
     try:
         input_file = open('/backend/utils/universities.html', 'r')
         output_file = open('/backend/utils/universities.txt', 'a')

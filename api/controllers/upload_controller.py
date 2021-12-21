@@ -1,18 +1,19 @@
+from resume_parser import resumeparse
+from utils.technologies_parser import parse_technologies
+import tika
+from tika import parser
 import os
 
 import logging
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
-from tika import parser
-import tika
 tika.initVM()
 
-from utils.technologies_parser import parse_technologies
-from resume_parser import resumeparse
 
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'doc', 'docx'}
 UPLOAD_FOLDER = '../temp/'
+
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -20,7 +21,7 @@ def allowed_file(filename):
 
 
 def parse_resume(request):
-    try: 
+    try:
         # Verify if a file was sent in the request
         if 'file' not in request.files:
             logger.info('No file part')
@@ -29,7 +30,7 @@ def parse_resume(request):
 
         # Verify if a non-empty file was sent
         if file.filename == '':
-            logger.info('No selected file')    
+            logger.info('No selected file')
             return
 
         # Temporarily save the file so that it can be processed
@@ -38,8 +39,8 @@ def parse_resume(request):
             return
 
         filename = file.filename
-        
-        if (not os.path.isdir(UPLOAD_FOLDER)): 
+
+        if (not os.path.isdir(UPLOAD_FOLDER)):
             os.mkdir(UPLOAD_FOLDER)
 
         file_path = os.path.join(UPLOAD_FOLDER, filename)
@@ -50,15 +51,16 @@ def parse_resume(request):
         # Parse the resume fields
         data = resumeparse.read_file(file_path)
         logger.info(data)
-    
+
         # Remove pdf from internal storage
         os.remove(file_path)
 
-    except Exception as e: 
-        logger.info(str(e)) 
+    except Exception as e:
+        logger.info(str(e))
+
 
 def parse_resume_experiment(request):
-    try: 
+    try:
         # Verify if a file was sent in the request
         if 'file' not in request.files:
             logger.info('No file part')
@@ -67,7 +69,7 @@ def parse_resume_experiment(request):
 
         # Verify if a non-empty file was sent
         if file.filename == '':
-            logger.info('No selected file')    
+            logger.info('No selected file')
             return
 
         # Temporarily save the file so that it can be processed
@@ -76,8 +78,8 @@ def parse_resume_experiment(request):
             return
 
         filename = file.filename
-        
-        if (not os.path.isdir(UPLOAD_FOLDER)): 
+
+        if (not os.path.isdir(UPLOAD_FOLDER)):
             os.mkdir(UPLOAD_FOLDER)
 
         file_path = os.path.join(UPLOAD_FOLDER, filename)
@@ -85,31 +87,30 @@ def parse_resume_experiment(request):
         file.save(file_path)
         logger.info('File has been saved!')
 
-        # Parse the resume technologies
+        # Parse the resume technologies/skills
         raw = parser.from_file(file_path)
         file_content = raw['content']
-        #logger.info(file_content)
-        parse_technologies(file_content)
+        skills = parse_technologies(file_content)
 
         # Parse the resume fields
         data = resumeparse.read_file(file_path)
 
-        # Bio data
         name = data['name']
         email = data['email']
         phone_number = data['phone']
-        designition = data['designition']
-        university = data['university']
-        companies_worked_at = data['Companies worked at']
+        designations = data['designition']
+        universities = data['university']
 
-        logger.info(str(name), str(email), str(phone_number), str(designition), str(university), str(companies_worked_at))
-    
         # Remove pdf from internal storage
         os.remove(file_path)
 
-    except Exception as e: 
-        logger.info(str(e)) 
+        return {'name': name,
+                'email': email,
+                'phone_number': phone_number,
+                'designations': designations,
+                'universities': universities,
+                'skills': skills
+                }
 
-    
-
-            
+    except Exception as e:
+        logger.info(str(e))

@@ -1,4 +1,4 @@
-from flask import Flask, request 
+from flask import Flask, request, jsonify
 import logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('_______')
@@ -15,10 +15,10 @@ CORS(app)
 def upload_cv_response():
     logger.info('Received cv request...')
 
-    parse_resume_experiment(request)
+    parsed_data = parse_resume_experiment(request)
+    logger.info(parsed_data)
     
-    response = 'File has been received'
-    return response
+    return jsonify(parsed_data)
 
 def app_setup():
     global technologies

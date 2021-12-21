@@ -23,6 +23,6 @@ export default class API {
         const url = this.buildURL('upload_cv');
         await axios.post(url, fileData).then((response: any) => {
             console.log(response);
-        });
+        })
     }
 }

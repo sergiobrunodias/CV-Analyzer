@@ -26,5 +26,4 @@ def parse_technologies(file_content):
         if tokens[index] in app.technologies:
             technologies.add(tokens[index])
             
-    logger.info(technologies)
-    return True
+    return list(technologies)

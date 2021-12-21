@@ -9,12 +9,6 @@ function App() {
   const [text, setText] = useState("");
   const [uploadVisible, setUploadVisible] = useState(true)
 
-  useEffect(() => {
-    fetch("http://localhost:5000/api/test")
-      .then(res => res.json())
-      .then((res) => setText(res), (err) => console.error(err));
-  })
-
   const sendFileToServer= async (data: any) => {
       await new API().uploadFile(data);
   }

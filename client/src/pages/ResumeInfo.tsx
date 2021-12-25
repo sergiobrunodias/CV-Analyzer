@@ -2,6 +2,7 @@ import React, { useEffect, useState, } from 'react';
 import '../App.css';
 import Email from '@material-ui/icons/Email';
 import PhoneIphone from '@material-ui/icons/PhoneIphone';
+import TagsComponent from "react-tags-component";
 
 import {
   Container,
@@ -9,28 +10,11 @@ import {
   Row
 } from 'react-bootstrap'
 
-function Tag() {
-  return (
-    <div>
-      <p style={{
-        backgroundColor: 'grey',
-        borderRadius: '8px',
-        paddingTop: 6,
-        paddingBottom: 6,
-        paddingRight: 15,
-        paddingLeft: 15,
-        fontSize: 20
-      }}>
-        University of Porto
-      </p>
-    </div>
-  )
-}
-
 function ResumeInfo() {
 
   const [text, setText] = useState("");
   const [uploadVisible, setUploadVisible] = useState(true)
+  const [jobNoticeText, setJobNoticeText] = useState("")
 
   return (
     <div style={styles.page}>
@@ -43,16 +27,68 @@ function ResumeInfo() {
           <PhoneIphone fontSize="large" style={styles.icon} />+351 910450865
         </p>
       </div>
-      <div style={styles.universities}>
-        <h2 style={styles.subtitle}>Universities: </h2>
-        <Tag />
-      </div>
+
       <Container>
-        <Row>
-          <Col sm={4}>Universities</Col>
-          <Col sm={8}><Tag /><Tag /></Col>
+        <Row style={styles.tagSection}>
+          <Col sm={4}>
+            <p style={styles.subtitle}>Designations</p>
+          </Col>
+          <Col sm={8}>
+            {
+              ["Software Engineer", "Assistant Professor"].map(el => (
+                <TagsComponent
+                  textLabel={el}
+                  colorTextLabel={"#000000"}
+                  backgroundTags={"#FFFFFF"}
+                  hideShadowTags={true}
+                />
+              ))
+            }
+          </Col>
         </Row>
+        <Row style={styles.tagSection}>
+          <Col sm={4}>
+            <p style={styles.subtitle}>Universities</p>
+          </Col>
+          <Col sm={8}>
+            {
+              ["University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto"].map(el => (
+                <TagsComponent
+                  textLabel={el}
+                  colorTextLabel={"#000000"}
+                  backgroundTags={"#FFFFFF"}
+                  hideShadowTags={true}
+                />
+              ))
+            }
+          </Col>
+        </Row>
+        <Row style={styles.tagSection}>
+          <Col sm={4}>
+            <p style={styles.subtitle}>Skills</p>
+          </Col>
+          <Col sm={8}>
+            {
+              ["Docker", "C++", "C", "Java", "JavaScript", "CSS", "HTML"].map(el => (
+                <TagsComponent
+                  textLabel={el}
+                  colorTextLabel={"#000000"}
+                  backgroundTags={"#FFFFFF"}
+                  hideShadowTags={true}
+                />
+              ))
+            }
+          </Col>
+        </Row>
+        <p style={{...styles.subtitle, marginTop: 50}}>Job Notice</p>
+        <input
+            type="text"
+            value={jobNoticeText}
+            onChange={(e: React.FormEvent<HTMLInputElement>) => setJobNoticeText(e.currentTarget.value)}
+            style={styles.textBox}
+         />
       </Container>
+
     </div>
   );
 }
@@ -65,6 +101,8 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
+    paddingTop: 60,
+    paddingBottom: 200
   },
   icon: {
     paddingRight: 10
@@ -83,12 +121,16 @@ const styles = {
   contacts: {
     display: 'flex',
     flexDirection: 'row' as 'row',
-    fontSize: 27
+    fontSize: 27,
+    marginTop: 20
   },
-  universities: {
-    display: 'flex',
-    flexDirection: 'row' as 'row'
-  }
+  tagSection: {
+    marginTop: 50
+  },
+  textBox: {
+    width: '100%',
+    height: 180
+  },
 }
 
 export default ResumeInfo;

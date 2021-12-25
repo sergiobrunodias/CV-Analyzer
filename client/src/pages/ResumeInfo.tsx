@@ -2,9 +2,13 @@ import React, { useEffect, useState, } from 'react';
 import '../App.css';
 import Email from '@material-ui/icons/Email';
 import PhoneIphone from '@material-ui/icons/PhoneIphone';
+import BuildIcon from '@material-ui/icons/Build';
+import BadgeIcon from '@material-ui/icons/Dns'
+import SchoolIcon from '@material-ui/icons/School';
 import TagsComponent from "react-tags-component";
 
 import {
+  Button,
   Container,
   Col,
   Row
@@ -21,17 +25,19 @@ function ResumeInfo() {
       <h1 style={styles.title}>John Smith</h1>
       <div style={styles.contacts}>
         <p style={styles.email}>
-          <Email fontSize="large" style={styles.icon} />johnsmith@gmail.com
+          <Email style={styles.icon} />johnsmith@gmail.com
         </p>
         <p>
-          <PhoneIphone fontSize="large" style={styles.icon} />+351 910450865
+          <PhoneIphone style={styles.icon} />+351 910450865
         </p>
       </div>
 
       <Container>
         <Row style={styles.tagSection}>
           <Col sm={4}>
-            <p style={styles.subtitle}>Designations</p>
+            <p style={styles.subtitle}>
+              <BadgeIcon style={styles.icon} /> Designations
+            </p>
           </Col>
           <Col sm={8}>
             {
@@ -48,7 +54,9 @@ function ResumeInfo() {
         </Row>
         <Row style={styles.tagSection}>
           <Col sm={4}>
-            <p style={styles.subtitle}>Universities</p>
+            <p style={styles.subtitle}>
+              <SchoolIcon style={styles.icon} /> Universities
+            </p>
           </Col>
           <Col sm={8}>
             {
@@ -65,7 +73,9 @@ function ResumeInfo() {
         </Row>
         <Row style={styles.tagSection}>
           <Col sm={4}>
-            <p style={styles.subtitle}>Skills</p>
+            <p style={styles.subtitle}>
+              <BuildIcon style={styles.icon} /> Skills
+            </p>
           </Col>
           <Col sm={8}>
             {
@@ -80,15 +90,22 @@ function ResumeInfo() {
             }
           </Col>
         </Row>
-        <p style={{...styles.subtitle, marginTop: 50}}>Job Notice</p>
+        <p style={{ ...styles.subtitle, marginTop: 50 }}>Job Notice</p>
         <input
-            type="text"
-            value={jobNoticeText}
-            onChange={(e: React.FormEvent<HTMLInputElement>) => setJobNoticeText(e.currentTarget.value)}
-            style={styles.textBox}
-         />
+          type="text"
+          value={jobNoticeText}
+          onChange={(e: React.FormEvent<HTMLInputElement>) => setJobNoticeText(e.currentTarget.value)}
+          style={styles.textBox}
+        />
+        <Button
+          variant="secondary"
+          size="lg"
+          className="w-100"
+          onChange={() => true}
+        >
+          Compare
+        </Button>
       </Container>
-
     </div>
   );
 }
@@ -105,7 +122,8 @@ const styles = {
     paddingBottom: 200
   },
   icon: {
-    paddingRight: 10
+    marginRight: 8,
+    fontSize: 40
   },
   title: {
     fontWeight: 'bold',

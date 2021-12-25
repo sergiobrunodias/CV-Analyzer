@@ -6,6 +6,7 @@ import BuildIcon from '@material-ui/icons/Build';
 import BadgeIcon from '@material-ui/icons/Dns'
 import SchoolIcon from '@material-ui/icons/School';
 import TagsComponent from "react-tags-component";
+import background from '../images/app-wallpaper.png';
 
 import {
   Button,
@@ -22,7 +23,7 @@ function ResumeInfo() {
 
   return (
     <div style={styles.page}>
-      <h1 style={styles.title}>John Smith</h1>
+      <h1 style={styles.title} className="">John Smith</h1>
       <div style={styles.contacts}>
         <p style={styles.email}>
           <Email style={styles.icon} />johnsmith@gmail.com
@@ -91,10 +92,9 @@ function ResumeInfo() {
           </Col>
         </Row>
         <p style={{ ...styles.subtitle, marginTop: 50 }}>Job Notice</p>
-        <input
-          type="text"
-          value={jobNoticeText}
-          onChange={(e: React.FormEvent<HTMLInputElement>) => setJobNoticeText(e.currentTarget.value)}
+        <textarea
+          value={jobNoticeText} 
+          onChange={(e: React.FormEvent<HTMLTextAreaElement>) => setJobNoticeText(e.currentTarget.value)}
           style={styles.textBox}
         />
         <Button
@@ -112,14 +112,14 @@ function ResumeInfo() {
 
 const styles = {
   page: {
-    backgroundColor: '#282c34',
-    display: 'flex',
+    backgroundImage: `url(${background})`,
+    display: 'flex', 
     flexDirection: 'column' as 'column',
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
     paddingTop: 60,
-    paddingBottom: 200
+    paddingBottom: 60
   },
   icon: {
     marginRight: 8,

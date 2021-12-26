@@ -1,4 +1,4 @@
-import React, { useEffect, useState, } from 'react';
+import { useState, } from 'react';
 import logo from '../images/resume.svg';
 import '../App.css';
 import FileDropZone from '../components/FileDropZone';
@@ -8,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 function ResumeUpload() {
 
     const [text, setText] = useState("");
-    const [uploadVisible, setUploadVisible] = useState(true)
 
     const navigate = useNavigate();
 
@@ -29,10 +28,7 @@ function ResumeUpload() {
                 <p>
                     {text}
                 </p>
-                {
-                    uploadVisible ?
-                        <FileDropZone onDataExtract={sendFileToServer} /> : null
-                }
+                <FileDropZone onDataExtract={sendFileToServer} />
             </header>
         </div>
     );

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, } from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import Email from '@material-ui/icons/Email';
 import PhoneIphone from '@material-ui/icons/PhoneIphone';
@@ -17,16 +17,14 @@ import {
 
 function ResumeInfo() {
 
-  const [text, setText] = useState("");
-  const [uploadVisible, setUploadVisible] = useState(true)
   const [jobNoticeText, setJobNoticeText] = useState("")
 
   return (
     <div style={styles.page}>
-      <h1 style={styles.title} className="">John Smith</h1>
+      <h1 style={styles.title}>John Smith</h1>
       <div style={styles.contacts}>
         <p style={styles.email}>
-          <Email style={styles.icon} />johnsmith@gmail.com
+          <Email style={styles.icon} /> johnsmith@gmail.com
         </p>
         <p>
           <PhoneIphone style={styles.icon} />+351 910450865
@@ -91,7 +89,7 @@ function ResumeInfo() {
             }
           </Col>
         </Row>
-        <p style={{ ...styles.subtitle, marginTop: 50 }}>Job Notice</p>
+        <p style={{ ...styles.subtitle, marginTop: 35 }}>Job Notice</p>
         <textarea
           value={jobNoticeText} 
           onChange={(e: React.FormEvent<HTMLTextAreaElement>) => setJobNoticeText(e.currentTarget.value)}
@@ -100,7 +98,7 @@ function ResumeInfo() {
         <Button
           variant="secondary"
           size="lg"
-          className="w-100"
+          className="w-100 active"
           onChange={() => true}
         >
           Compare
@@ -118,7 +116,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
-    paddingTop: 60,
+    paddingTop: 40,
     paddingBottom: 60
   },
   icon: {
@@ -127,7 +125,7 @@ const styles = {
   },
   title: {
     fontWeight: 'bold',
-    fontSize: 40
+    fontSize: 45
   },
   subtitle: {
     fontWeight: 'bold',

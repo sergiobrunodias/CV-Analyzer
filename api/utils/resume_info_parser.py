@@ -14,11 +14,18 @@ def match_terms(file_content, sets_to_match):
     i = 0
     while i < len(terms_to_match):
         term_str = ""
+        if i < len(terms_to_match) - 1:
+            joint_term = terms_to_match[i] + terms_to_match[i + 1]
+            for set_index in range(0, num_sets):
+                if (joint_term in sets_to_match[set_index]):
+                    matched_terms[set_index].add(joint_term)
+                    i += 1
+                    break
         for j in range(0, 10):
             if i + j >= len(terms_to_match): break
             term_str += " " + terms_to_match[i + j] if term_str != "" else terms_to_match[i + j] 
             for set_index in range(0, num_sets):
-                if (term_str in sets_to_match[set_index]):
+                if term_str in sets_to_match[set_index]:
                     matched_terms[set_index].add(term_str)
         i += 1
     

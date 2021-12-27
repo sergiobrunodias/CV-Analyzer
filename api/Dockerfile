@@ -7,7 +7,8 @@ RUN pip install --upgrade pip && \
     pip install flask-cors --upgrade && \
     pip install tika --upgrade && \
     pip install resume-parser && \
-    pip install -r requirements.txt
+    pip install -r requirements.txt \
+    pip install beautifulsoup4
 
 RUN pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz && \
     pip install importlib-metadata==3.2.0 && \

@@ -1,4 +1,4 @@
-import { useState, } from 'react';
+import { useState, useEffect } from 'react';
 import logo from '../images/resume.svg';
 import '../App.css';
 import FileDropZone from '../components/FileDropZone';
@@ -16,6 +16,11 @@ function ResumeUpload() {
             navigate("/info");
         })
     }
+
+    useEffect(() => {
+        const data = {url: "ola", text: "Ola"};
+        new API().uploadJobNotice(data);
+    });
 
     return (
         <div className="App">

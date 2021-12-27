@@ -49,13 +49,15 @@ Bash
 Ladder Logic
 Clojure
 Scheme
-
+//
 // Operating Systems
 Windows
 Ubuntu
 Linux
 MacOS
-
+Android
+iOS
+//
 // Frameworks - https://www.bairesdev.com/blog/top-100-development-frameworks/
 Angular
 AngularJS
@@ -166,7 +168,7 @@ Rapidoid
 Ktor
 Scalatra
 Toolatra
-
+//
 HTML
 HTML5
 DOM
@@ -198,3 +200,4 @@ Object Oriented Programming
 OOP
 Distributed Systems
 MVC
+Microservices

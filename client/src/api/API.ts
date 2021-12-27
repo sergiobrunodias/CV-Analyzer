@@ -22,7 +22,15 @@ export default class API {
     async uploadFile(fileData: Object) {
         const url = this.buildURL('upload_cv');
         const promise = axios.post(url, fileData);
-        const dataPromise = promise.then((response) => response)
+        const dataPromise = promise.then((response) => response);
         return dataPromise;
     }
+
+    async uploadJobNotice(data: Object) {
+        const url = this.buildURL('upload_job_notice');
+        const promise = axios.post(url, data);
+        const dataPromise = promise.then((response) => response);
+        return dataPromise;
+    }
+
 }

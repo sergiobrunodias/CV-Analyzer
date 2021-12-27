@@ -7,6 +7,8 @@ import BadgeIcon from '@material-ui/icons/Dns'
 import SchoolIcon from '@material-ui/icons/School';
 import TagsComponent from "react-tags-component";
 import background from '../images/app-wallpaper.png';
+import { useLocation } from 'react-router-dom';
+
 
 import {
   Button,
@@ -15,10 +17,37 @@ import {
   Row
 } from 'react-bootstrap'
 
+type ResumeInfo = {
+  name: string,
+  email: string,
+  phone_number: string,
+  designations: Array<string>,
+  universities: Array<string>,
+  skills: Array<string>
+}
+
 function ResumeInfo() {
 
-  useEffect(() => {
-    
+  const location = useLocation();
+
+  useEffect(() => { 
+
+    const state = location.state;
+
+    const name = (state as ResumeInfo)?.name;
+    console.log(name)
+    const email = (state as ResumeInfo)?.email;
+    const phone_number = (state as ResumeInfo)?.phone_number;
+    const designations = (state as ResumeInfo)?.designations;
+    const universities = (state as ResumeInfo)?.universities;
+    const skills = (state as ResumeInfo)?.skills;
+
+    setName(name);
+    setEmail(email);
+    setPhoneNumber(phone_number);
+    setDesignations(designations);
+    setUniversities(universities);
+    setSkills(skills);
   })
 
   const [name, setName] = useState("")
@@ -122,13 +151,17 @@ function ResumeInfo() {
 const styles = {
   page: {
     backgroundImage: `url(${background})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'repeat repeat',
     display: 'flex', 
     flexDirection: 'column' as 'column',
     alignItems: 'center',
     justifyContent: 'center',
     color: 'white',
     paddingTop: 40,
-    paddingBottom: 60
+    paddingBottom: 40,
+    backgroundAttachment: 'fixed',
   },
   icon: {
     marginRight: 8,

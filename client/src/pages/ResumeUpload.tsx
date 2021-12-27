@@ -13,7 +13,8 @@ function ResumeUpload() {
 
     const sendFileToServer = async (data: any) => {
         new API().uploadFile(data).then((response) => {
-            navigate("/info");
+            console.log(response)
+            navigate("/info", { state: response.data });
         })
     }
 

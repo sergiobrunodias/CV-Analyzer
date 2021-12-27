@@ -1,5 +1,5 @@
 from resume_parser import resumeparse
-from utils.technologies_parser import parse_technologies
+from utils.resume_info_parser import parse_technologies, parse_designations
 import tika
 from tika import parser
 import os
@@ -26,7 +26,12 @@ def match_job_notice(request):
     job_notice_content = BeautifulSoup(req.content, "html.parser").get_text()
 
     job_notice_skills = parse_technologies(job_notice_content)
-    logger.info(job_notice_skills)
+    skills_matched = list(set(job_notice_skills) & set(["django", "c++"]))
+    logger.info(skills_matched)
+
+    designations_matched = parse_designations(job_notice_content, set(["Software Engineer"]))
+    logger.info(designations_matched)
+
     return {"name": "name"}
 
 def parse_resume(request):

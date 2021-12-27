@@ -30,15 +30,16 @@ def build_file():
         print(e)
 
 def build_set():
-    technologies_set = set()
+    technologies_dict = {}
     try:
         file_path = os.path.join('/backend/utils/', 'technologies_short.txt')
         technologies_file = open(file_path, 'r')
         lines = technologies_file.readlines()
         
         for line in lines:
-            technologies_set.add(line[0:len(line)-1])
+            technology = line[0:len(line)-1]
+            technologies_dict[technology.lower()] = technology
     except Exception as e:
         print(e)
     
-    return technologies_set
+    return technologies_dict

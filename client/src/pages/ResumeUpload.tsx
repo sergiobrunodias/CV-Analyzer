@@ -20,7 +20,7 @@ function ResumeUpload() {
 
     useEffect(() => {
         const data = {url: "ola", text: "Ola"};
-        new API().uploadJobNotice(data);
+        //new API().uploadJobNotice(data);
     });
 
     return (

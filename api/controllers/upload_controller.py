@@ -1,10 +1,11 @@
 from resume_parser import resumeparse
-from utils.resume_info_parser import parse_technologies, parse_designations
+from utils.resume_info_parser import match_terms
 import tika
 from tika import parser
 import os
 import requests
 from bs4 import BeautifulSoup
+import app
 
 import logging
 logger = logging.getLogger('_______')
@@ -62,19 +63,21 @@ def parse_resume(request):
         file.save(file_path)
         logger.info('File has been saved!')
 
-        # Parse the resume technologies/skills
         raw = parser.from_file(file_path)
         file_content = raw['content']
-        skills = parse_technologies(file_content)
+        [skills, universities] = match_terms(file_content, [app.technologies, set(["university of porto"])])
 
-        # Parse the resume fields
         data = resumeparse.read_file(file_path)
 
         name = data['name']
         email = data['email']
         phone_number = data['phone']
         designations = list(map(lambda designation: designation.title().replace("Of", "of"), data['designition']))
-        universities = list(map(lambda university: university.title().replace("Of", "of"), data['university']))
+        universities_package = data['university']
+
+        universities = list(set(universities) | set(universities_package))
+        universities = list(map(lambda university: university.title().replace("Of", "of"), universities))
+        skills = list(map(lambda skill: app.technologies.get(skill), skills))
 
         # Remove pdf from internal storage
         os.remove(file_path)

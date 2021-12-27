@@ -1,44 +1,25 @@
 import app
 import nltk
 import logging
+import time
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
-def parse_technologies(file_content):
+def match_terms(file_content, sets_to_match):
     tokens = nltk.wordpunct_tokenize(file_content)
-    tokens = list(map(lambda token: token.lower(), tokens))
-    matched_terms = match_terms(tokens, app.technologies)
-    return list(map(lambda skill: app.technologies.get(skill), matched_terms))
+    terms_to_match = list(map(lambda token: token.lower(), tokens))
 
-def parse_designations(job_notice_content, terms_set):
-    tokens = nltk.wordpunct_tokenize(job_notice_content)
-    return match_terms(tokens, terms_set)
-
-def match_terms(terms_to_match, terms_set):
-    technologies = set()
-    for index in range(len(terms_to_match)):
-        # Firstly attempts to match a 3-term skill
-        if index + 2 < len(terms_to_match):
-            neighboring_words = f'{terms_to_match[index]} {terms_to_match[index + 1]} {terms_to_match[index + 2]}'
-            if neighboring_words in terms_set:
-                technologies.add(neighboring_words)
-                continue
-
-        # Attempts to match a 2-term skill
-        if index + 1 < len(terms_to_match):
-            neighboring_words = f'{terms_to_match[index]} {terms_to_match[index + 1]}'
-            if neighboring_words in terms_set:
-                technologies.add(neighboring_words)
-                continue
-
-        # Attempts to match a 1-term skill
-        if terms_to_match[index] in terms_set:
-            technologies.add(terms_to_match[index])
-
-        if index + 1 < len(terms_to_match):
-            neighboring_words = f'{terms_to_match[index]}{terms_to_match[index + 1]}'
-            if neighboring_words in terms_set:
-                technologies.add(neighboring_words)
-                continue
-            
-    return list(technologies)
+    num_sets = len(sets_to_match)
+    matched_terms = [set(), set()]
+    i = 0
+    while i < len(terms_to_match):
+        term_str = ""
+        for j in range(0, 10):
+            if i + j >= len(terms_to_match): break
+            term_str += " " + terms_to_match[i + j] if term_str != "" else terms_to_match[i + j] 
+            for set_index in range(0, num_sets):
+                if (term_str in sets_to_match[set_index]):
+                    matched_terms[set_index].add(term_str)
+        i += 1
+    
+    return list(map(lambda matched_set: list(matched_set), matched_terms))

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../App.css';
 import Email from '@material-ui/icons/Email';
 import PhoneIphone from '@material-ui/icons/PhoneIphone';
@@ -17,17 +17,28 @@ import {
 
 function ResumeInfo() {
 
+  useEffect(() => {
+    
+  })
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phoneNumber, setPhoneNumber] = useState("")
+  const [designations, setDesignations] = useState([""])
+  const [universities, setUniversities] = useState([""])
+  const [skills, setSkills] = useState([""])
   const [jobNoticeText, setJobNoticeText] = useState("")
+
 
   return (
     <div style={styles.page}>
-      <h1 style={styles.title}>John Smith</h1>
+      <h1 style={styles.title}>{name}</h1>
       <div style={styles.contacts}>
         <p style={styles.email}>
-          <Email style={styles.icon} /> johnsmith@gmail.com
+          <Email style={styles.icon} /> {email}
         </p>
         <p>
-          <PhoneIphone style={styles.icon} />+351 910450865
+          <PhoneIphone style={styles.icon} />{phoneNumber}
         </p>
       </div>
 
@@ -40,7 +51,7 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              ["Software Engineer", "Assistant Professor"].map(el => (
+              designations.map(el => (
                 <TagsComponent
                   textLabel={el}
                   colorTextLabel={"#000000"}
@@ -59,7 +70,7 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              ["University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto", "University of Porto"].map(el => (
+              universities.map(el => (
                 <TagsComponent
                   textLabel={el}
                   colorTextLabel={"#000000"}
@@ -78,7 +89,7 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              ["Docker", "C++", "C", "Java", "JavaScript", "CSS", "HTML"].map(el => (
+              skills.map(el => (
                 <TagsComponent
                   textLabel={el}
                   colorTextLabel={"#000000"}

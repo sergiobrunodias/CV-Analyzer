@@ -6,8 +6,9 @@ logging.basicConfig(level=logging.DEBUG)
 
 def parse_technologies(file_content):
     tokens = nltk.wordpunct_tokenize(file_content)
-    tokens = list(map(lambda x: x.lower(), tokens))
-    return match_terms(tokens, app.technologies)
+    tokens = list(map(lambda token: token.lower(), tokens))
+    matched_terms = match_terms(tokens, app.technologies)
+    return list(map(lambda skill: app.technologies.get(skill), matched_terms))
 
 def parse_designations(job_notice_content, terms_set):
     tokens = nltk.wordpunct_tokenize(job_notice_content)

@@ -73,8 +73,8 @@ def parse_resume(request):
         name = data['name']
         email = data['email']
         phone_number = data['phone']
-        designations = data['designition']
-        universities = data['university']
+        designations = list(map(lambda designation: designation.title().replace("Of", "of"), data['designition']))
+        universities = list(map(lambda university: university.title().replace("Of", "of"), data['university']))
 
         # Remove pdf from internal storage
         os.remove(file_path)

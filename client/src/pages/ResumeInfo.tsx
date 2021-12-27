@@ -86,6 +86,7 @@ function ResumeInfo() {
                   colorTextLabel={"#000000"}
                   backgroundTags={"#FFFFFF"}
                   hideShadowTags={true}
+                  hideIcon={true}
                 />
               ))
             }
@@ -105,6 +106,7 @@ function ResumeInfo() {
                   colorTextLabel={"#000000"}
                   backgroundTags={"#FFFFFF"}
                   hideShadowTags={true}
+                  hideIcon={true}
                 />
               ))
             }
@@ -124,6 +126,7 @@ function ResumeInfo() {
                   colorTextLabel={"#000000"}
                   backgroundTags={"#FFFFFF"}
                   hideShadowTags={true}
+                  hideIcon={true}
                 />
               ))
             }

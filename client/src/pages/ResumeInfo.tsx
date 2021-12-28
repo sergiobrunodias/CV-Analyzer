@@ -26,6 +26,11 @@ type ResumeInfo = {
   skills: Array<string>
 }
 
+type MatchData = {
+  designations_matched: Array<string>,
+  skills_matched: Array<string>
+}
+
 function ResumeInfo() {
 
   const location = useLocation();
@@ -58,6 +63,9 @@ function ResumeInfo() {
   const [jobNoticeText, setJobNoticeText] = useState("")
   const [jobNoticeLink, setJobNoticeLink] = useState("")
 
+  const [designationsMatched, setDesignationsMatched] = useState(new Set())
+  const [skillsMatched, setSkillsMatched] = useState(new Set())
+
   function sendLink() {
      const data = {
        link: jobNoticeLink,
@@ -65,7 +73,7 @@ function ResumeInfo() {
        skills: skills
      }
      new API().uploadJobNotice(data).then((res) => {
-      console.log(res)
+      updateMatch(res.data)
      });
   }
 
@@ -76,8 +84,13 @@ function ResumeInfo() {
       skills: skills
     }
     new API().uploadJobNotice(data).then((res) => {
-     console.log(res)
+     updateMatch(res.data)
     });
+ }
+ 
+ function updateMatch(data: MatchData) {
+  setDesignationsMatched(new Set(data['designations_matched']));
+  setSkillsMatched(new Set(data['skills_matched']));
  }
 
   return (
@@ -101,11 +114,11 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              designations.map(el => (
+              designations.map(designation => (
                 <TagsComponent
-                  textLabel={el}
+                  textLabel={designation}
                   colorTextLabel={"#000000"}
-                  backgroundTags={"#FFFFFF"}
+                  backgroundTags={designationsMatched.has(designation)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
                 />
@@ -141,11 +154,11 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              skills.map(el => (
+              skills.map(skill => (
                 <TagsComponent
-                  textLabel={el}
+                  textLabel={skill}
                   colorTextLabel={"#000000"}
-                  backgroundTags={"#FFFFFF"}
+                  backgroundTags={skillsMatched.has(skill)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
                 />

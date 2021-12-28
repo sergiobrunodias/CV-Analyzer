@@ -26,18 +26,23 @@ def allowed_file(filename):
 def match_job_notice(request):
     content_type = request.headers.get('Content-Type')
     if content_type != 'application/json':
-        return 'Content-Type not supported!'
+        return 'Content-Type not supported!' 
     
-    link = request.json['link']
+    try:
+        link = request.json['link']
+    except:
+        job_notice_content = request.json['text']
+
     designations = request.json['designations']
     skills = request.json['skills']
 
-    try:
-        req = requests.get(link)
-    except:
-        return "Invalid URL!"
+    if 'link' in locals():
+        try:
+            req = requests.get(link)
+        except:
+            return "Invalid URL!"
 
-    job_notice_content = BeautifulSoup(req.content, "html.parser").get_text()
+        job_notice_content = BeautifulSoup(req.content, "html.parser").get_text()
 
     [skills_matched, designations_matched] = match_terms(job_notice_content, [set(to_lower_all(skills)), set(to_lower_all(designations))])
 

@@ -59,7 +59,6 @@ function ResumeInfo() {
   const [jobNoticeLink, setJobNoticeLink] = useState("")
 
   function sendLink() {
-     console.log(jobNoticeLink);
      const data = {
        link: jobNoticeLink,
        designations: designations,
@@ -71,7 +70,14 @@ function ResumeInfo() {
   }
 
   function sendText() {
-    console.log("TBI");
+    const data = {
+      text: jobNoticeText,
+      designations: designations,
+      skills: skills
+    }
+    new API().uploadJobNotice(data).then((res) => {
+     console.log(res)
+    });
  }
 
   return (

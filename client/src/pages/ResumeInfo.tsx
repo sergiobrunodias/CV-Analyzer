@@ -8,7 +8,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import TagsComponent from "react-tags-component";
 import background from '../images/app-wallpaper.png';
 import { useLocation } from 'react-router-dom';
-
+import API from '../api/API';
 
 import {
   Button,
@@ -35,7 +35,6 @@ function ResumeInfo() {
     const state = location.state;
 
     const name = (state as ResumeInfo)?.name;
-    console.log(name)
     const email = (state as ResumeInfo)?.email;
     const phone_number = (state as ResumeInfo)?.phone_number;
     const designations = (state as ResumeInfo)?.designations;
@@ -57,7 +56,23 @@ function ResumeInfo() {
   const [universities, setUniversities] = useState([""])
   const [skills, setSkills] = useState([""])
   const [jobNoticeText, setJobNoticeText] = useState("")
+  const [jobNoticeLink, setJobNoticeLink] = useState("")
 
+  function sendLink() {
+     console.log(jobNoticeLink);
+     const data = {
+       link: jobNoticeLink,
+       designations: designations,
+       skills: skills
+     }
+     new API().uploadJobNotice(data).then((res) => {
+      console.log(res)
+     });
+  }
+
+  function sendText() {
+    console.log("TBI");
+ }
 
   return (
     <div style={styles.page}>
@@ -132,7 +147,7 @@ function ResumeInfo() {
             }
           </Col>
         </Row>
-        <p style={{ ...styles.subtitle, marginTop: 35 }}>Job Notice</p>
+        <p style={{ ...styles.subtitle, marginTop: 35 }}>Job Notice Text</p>
         <textarea
           value={jobNoticeText} 
           onChange={(e: React.FormEvent<HTMLTextAreaElement>) => setJobNoticeText(e.currentTarget.value)}
@@ -142,7 +157,21 @@ function ResumeInfo() {
           variant="secondary"
           size="lg"
           className="w-100 active"
-          onChange={() => true}
+          onClick={sendText}
+        >
+          Compare
+        </Button>
+        <p style={{ ...styles.subtitle, marginTop: 35 }}>Job Notice Link</p>
+        <input
+          value={jobNoticeLink} 
+          onChange={(e: React.FormEvent<HTMLInputElement>) => setJobNoticeLink(e.currentTarget.value)}
+          style={styles.textInput}
+        />
+        <Button
+          variant="secondary"
+          size="lg"
+          className="w-100 active"
+          onClick={sendLink}
         >
           Compare
         </Button>
@@ -193,6 +222,10 @@ const styles = {
   textBox: {
     width: '100%',
     height: 180
+  },
+  textInput: {
+    width: '100%',
+    height: 40
   },
 }
 

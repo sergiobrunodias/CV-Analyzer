@@ -4,10 +4,11 @@ import logging
 import time
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
+from utils.utils import to_lower_all
 
 def match_terms(file_content, sets_to_match):
     tokens = nltk.wordpunct_tokenize(file_content)
-    terms_to_match = list(map(lambda token: token.lower(), tokens))
+    terms_to_match = to_lower_all(tokens)
 
     num_sets = len(sets_to_match)
     matched_terms = [set(), set()]

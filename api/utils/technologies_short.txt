@@ -85,7 +85,6 @@ ZF
 Zikula
 Bootstrap
 Grails
-Play
 Web2py
 Lumen
 TurboGears
@@ -201,3 +200,6 @@ OOP
 Distributed Systems
 MVC
 Microservices
+Elasticsearch
+Ansible
+Consul

@@ -1,3 +1,4 @@
+from utils.utils import capitalize_all, to_lower_all
 from resume_parser import resumeparse
 from utils.resume_info_parser import match_terms
 import tika
@@ -23,17 +24,27 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def match_job_notice(request):
-    req = requests.get("https://switchpayments.com/about/careers/867ebf3318ba01-android-software-engineer")
+    content_type = request.headers.get('Content-Type')
+    if content_type != 'application/json':
+        return 'Content-Type not supported!'
+    
+    link = request.json['link']
+    designations = request.json['designations']
+    skills = request.json['skills']
+
+    try:
+        req = requests.get(link)
+    except:
+        return "Invalid URL!"
+
     job_notice_content = BeautifulSoup(req.content, "html.parser").get_text()
 
-    job_notice_skills = parse_technologies(job_notice_content)
-    skills_matched = list(set(job_notice_skills) & set(["django", "c++"]))
-    logger.info(skills_matched)
+    [skills_matched, designations_matched] = match_terms(job_notice_content, [set(to_lower_all(skills)), set(to_lower_all(designations))])
 
-    designations_matched = parse_designations(job_notice_content, set(["Software Engineer"]))
-    logger.info(designations_matched)
-
-    return {"name": "name"}
+    return {
+        'skills_matched': list(map(lambda skill: app.technologies.get(skill), skills_matched)),
+        'designations_matched': capitalize_all(designations_matched)
+    }
 
 def parse_resume(request):
     try:
@@ -72,11 +83,11 @@ def parse_resume(request):
         name = data['name']
         email = data['email']
         phone_number = data['phone']
-        designations = list(map(lambda designation: designation.title().replace("Of", "of"), data['designition']))
+        designations = capitalize_all(data['designition'])
         universities_package = data['university']
 
         universities = list(set(universities) | set(universities_package))
-        universities = list(map(lambda university: university.title().replace("Of", "of"), universities))
+        universities = capitalize_all(universities)
         skills = list(map(lambda skill: app.technologies.get(skill), skills))
 
         # Remove pdf from internal storage

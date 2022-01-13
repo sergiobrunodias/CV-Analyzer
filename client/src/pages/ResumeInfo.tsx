@@ -4,6 +4,7 @@ import Email from '@material-ui/icons/Email';
 import PhoneIphone from '@material-ui/icons/PhoneIphone';
 import BuildIcon from '@material-ui/icons/Build';
 import BadgeIcon from '@material-ui/icons/Dns'
+import LanguagesIcon from '@material-ui/icons/Language'
 import SchoolIcon from '@material-ui/icons/School';
 import TagsComponent from "react-tags-component";
 import background from '../images/app-wallpaper.png';
@@ -23,7 +24,8 @@ type ResumeInfo = {
   phone_number: string,
   designations: Array<string>,
   universities: Array<string>,
-  skills: Array<string>
+  skills: Array<string>,
+  languages: Array<string>
 }
 
 type MatchData = {
@@ -45,6 +47,7 @@ function ResumeInfo() {
     const designations = (state as ResumeInfo)?.designations;
     const universities = (state as ResumeInfo)?.universities;
     const skills = (state as ResumeInfo)?.skills;
+    const languages = (state as ResumeInfo)?.languages;
 
     setName(name);
     setEmail(email);
@@ -52,6 +55,7 @@ function ResumeInfo() {
     setDesignations(designations);
     setUniversities(universities);
     setSkills(skills);
+    setLanguages(languages)
   })
 
   const [name, setName] = useState("")
@@ -60,6 +64,7 @@ function ResumeInfo() {
   const [designations, setDesignations] = useState([""])
   const [universities, setUniversities] = useState([""])
   const [skills, setSkills] = useState([""])
+  const [languages, setLanguages] = useState([""])
   const [jobNoticeText, setJobNoticeText] = useState("")
   const [jobNoticeLink, setJobNoticeLink] = useState("")
 
@@ -149,6 +154,26 @@ function ResumeInfo() {
         <Row style={styles.tagSection}>
           <Col sm={4}>
             <p style={styles.subtitle}>
+              <LanguagesIcon style={styles.icon} /> Languages
+            </p>
+          </Col>
+          <Col sm={8}>
+            {
+              languages.map(el => (
+                <TagsComponent
+                  textLabel={el}
+                  colorTextLabel={"#000000"}
+                  backgroundTags={"#FFFFFF"}
+                  hideShadowTags={true}
+                  hideIcon={true}
+                />
+              ))
+            }
+          </Col>
+        </Row>
+        <Row style={styles.tagSection}>
+          <Col sm={4}>
+            <p style={styles.subtitle}>
               <BuildIcon style={styles.icon} /> Skills
             </p>
           </Col>
@@ -166,7 +191,7 @@ function ResumeInfo() {
             }
           </Col>
         </Row>
-        <p style={{ ...styles.subtitle, marginTop: 35 }}>Job Notice Text</p>
+        <p style={{ ...styles.subtitle, marginTop: 25 }}>Job Notice Text</p>
         <textarea
           value={jobNoticeText} 
           onChange={(e: React.FormEvent<HTMLTextAreaElement>) => setJobNoticeText(e.currentTarget.value)}
@@ -233,10 +258,11 @@ const styles = {
     display: 'flex',
     flexDirection: 'row' as 'row',
     fontSize: 27,
-    marginTop: 20
+    marginTop: 20,
+    marginBottom: 8
   },
   tagSection: {
-    marginTop: 50
+    marginTop: 40
   },
   textBox: {
     width: '100%',

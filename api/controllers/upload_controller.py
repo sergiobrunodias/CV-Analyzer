@@ -81,7 +81,7 @@ def parse_resume(request):
 
         raw = parser.from_file(file_path)
         file_content = raw['content']
-        [skills, universities, languages] = match_terms(file_content, [app.technologies, set(["university of porto"]), app.languages])
+        [skills, universities, languages] = match_terms(file_content, [app.technologies, app.universities, app.languages])
 
         data = resumeparse.read_file(file_path)
 

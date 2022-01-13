@@ -35,6 +35,7 @@ def match_job_notice(request):
 
     designations = request.json['designations']
     skills = request.json['skills']
+    languages = request.json['languages']
 
     if 'link' in locals():
         try:
@@ -44,11 +45,12 @@ def match_job_notice(request):
 
         job_notice_content = BeautifulSoup(req.content, "html.parser").get_text()
 
-    [skills_matched, designations_matched] = match_terms(job_notice_content, [set(to_lower_all(skills)), set(to_lower_all(designations))])
+    [skills_matched, designations_matched, languages_matched] = match_terms(job_notice_content, [set(to_lower_all(skills)), set(to_lower_all(designations)), set(to_lower_all(languages))])
 
     return {
         'skills_matched': list(map(lambda skill: app.technologies.get(skill), skills_matched)),
-        'designations_matched': capitalize_all(designations_matched)
+        'designations_matched': capitalize_all(designations_matched),
+        'languages_matched': capitalize_all(languages_matched)
     }
 
 def parse_resume(request):

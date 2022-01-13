@@ -30,7 +30,8 @@ type ResumeInfo = {
 
 type MatchData = {
   designations_matched: Array<string>,
-  skills_matched: Array<string>
+  skills_matched: Array<string>,
+  languages_matched: Array<string>
 }
 
 function ResumeInfo() {
@@ -70,15 +71,18 @@ function ResumeInfo() {
 
   const [designationsMatched, setDesignationsMatched] = useState(new Set())
   const [skillsMatched, setSkillsMatched] = useState(new Set())
+  const [languagesMatched, setLanguagesMatched] = useState(new Set())
 
   function sendLink() {
      const data = {
        link: jobNoticeLink,
        designations: designations,
-       skills: skills
+       skills: skills,
+       languages: languages
      }
      new API().uploadJobNotice(data).then((res) => {
-      updateMatch(res.data)
+      updateMatch(res.data);
+      setJobNoticeLink("");
      });
   }
 
@@ -86,16 +90,19 @@ function ResumeInfo() {
     const data = {
       text: jobNoticeText,
       designations: designations,
-      skills: skills
+      skills: skills,
+      languages: languages
     }
     new API().uploadJobNotice(data).then((res) => {
-     updateMatch(res.data)
+     updateMatch(res.data);
+     setJobNoticeText("");
     });
  }
  
  function updateMatch(data: MatchData) {
   setDesignationsMatched(new Set(data['designations_matched']));
   setSkillsMatched(new Set(data['skills_matched']));
+  setLanguagesMatched(new Set(data['languages_matched']));
  }
 
   return (
@@ -159,11 +166,11 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              languages.map(el => (
+              languages.map(language => (
                 <TagsComponent
-                  textLabel={el}
+                  textLabel={language}
                   colorTextLabel={"#000000"}
-                  backgroundTags={"#FFFFFF"}
+                  backgroundTags={languagesMatched.has(language)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
                 />

@@ -18,6 +18,9 @@ def match_terms(file_content, sets_to_match):
         term_str = ""
         if i < len(terms_to_match) - 1:
             joint_term = terms_to_match[i] + terms_to_match[i + 1]
+            if joint_term[len(joint_term) - 1] in set([',', ';', '.', '/', '\\']):
+                joint_term = joint_term[0 : len(joint_term) - 1]
+
             for set_index in range(0, num_sets):
                 if (joint_term in sets_to_match[set_index]):
                     matched_terms[set_index].add(joint_term)

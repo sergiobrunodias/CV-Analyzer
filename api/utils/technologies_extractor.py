@@ -1,13 +1,11 @@
-import os
-
 import logging
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
 def build_file():
     try:
-        input_file = open('/backend/utils/technologies.html', 'r')
-        output_file = open('/backend/utils/technologies.txt', 'a')
+        input_file = open('/backend/datasets/technologies.html', 'r')
+        output_file = open('/backend/datasets/technologies.txt', 'a')
         lines = input_file.readlines()
         
         for line in lines:
@@ -28,18 +26,3 @@ def build_file():
 
     except Exception as e:
         print(e)
-
-def build_set():
-    technologies_dict = {}
-    try:
-        file_path = os.path.join('/backend/utils/', 'technologies_short.txt')
-        technologies_file = open(file_path, 'r')
-        lines = technologies_file.readlines()
-        
-        for line in lines:
-            technology = line[0:len(line)-1]
-            technologies_dict[technology.lower()] = technology
-    except Exception as e:
-        print(e)
-    
-    return technologies_dict

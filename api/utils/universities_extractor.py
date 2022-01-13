@@ -1,13 +1,11 @@
-import os
-
 import logging
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
 def build_file():
     try:
-        input_file = open('/backend/utils/universities.html', 'r')
-        output_file = open('/backend/utils/universities.txt', 'a')
+        input_file = open('/backend/datasets/universities.html', 'r')
+        output_file = open('/backend/datasets/universities.txt', 'a')
         content = input_file.read()
 
         start_index = 0
@@ -32,8 +30,3 @@ def build_file():
     except Exception as e:
         logger.info(e)
         print(e)
-
-def build_set():
-    universities_set = set()
-    # TODO
-    return universities_set

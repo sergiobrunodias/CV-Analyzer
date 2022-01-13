@@ -4,8 +4,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('_______')
 
 from controllers.upload_controller import parse_resume, match_job_notice
-from utils.technologies_extractor import build_set as build_technologies_set
-from utils.universities_extractor import build_set as build_universities_set
+from utils.utils import build_dict_from_dataset
 
 app = Flask(__name__)
 from flask_cors import CORS
@@ -30,11 +29,11 @@ def upload_job_notice_response():
 
 def app_setup():
     global technologies
-    technologies = build_technologies_set()
+    technologies = build_dict_from_dataset("technologies.txt")
     logger.info("Skill set successfully built!")
 
     global universities
-    universities = build_universities_set()
+    universities = build_dict_from_dataset("universities.txt")
     logger.info("Universities set successfully built!")
 
 

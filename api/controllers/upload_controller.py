@@ -81,7 +81,7 @@ def parse_resume(request):
 
         raw = parser.from_file(file_path)
         file_content = raw['content']
-        [skills, universities] = match_terms(file_content, [app.technologies, set(["university of porto"])])
+        [skills, universities, languages] = match_terms(file_content, [app.technologies, set(["university of porto"]), app.languages])
 
         data = resumeparse.read_file(file_path)
 
@@ -94,6 +94,7 @@ def parse_resume(request):
         universities = list(set(universities) | set(universities_package))
         universities = capitalize_all(universities)
         skills = list(map(lambda skill: app.technologies.get(skill), skills))
+        languages = capitalize_all(languages)
 
         # Remove pdf from internal storage
         os.remove(file_path)
@@ -103,7 +104,8 @@ def parse_resume(request):
                 'phone_number': phone_number,
                 'designations': designations,
                 'universities': universities,
-                'skills': skills
+                'skills': skills,
+                'languages': languages
                 }
 
     except Exception as e:

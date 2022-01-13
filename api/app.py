@@ -36,5 +36,9 @@ def app_setup():
     universities = build_dict_from_dataset("universities.txt")
     logger.info("Universities set successfully built!")
 
+    global languages
+    languages = build_dict_from_dataset("languages.txt")
+    logger.info("Languages set successfully built!")
+
 
 app_setup()

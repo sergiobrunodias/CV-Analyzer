@@ -12,7 +12,7 @@ def match_terms(file_content, sets_to_match):
     terms_to_match = to_lower_all(tokens)
 
     num_sets = len(sets_to_match)
-    matched_terms = [set(), set()]
+    matched_terms = [set() for _ in range(num_sets)]
     i = 0
     while i < len(terms_to_match):
         term_str = ""

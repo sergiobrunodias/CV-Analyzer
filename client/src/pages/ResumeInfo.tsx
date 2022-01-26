@@ -107,7 +107,7 @@ function ResumeInfo() {
 
   return (
     <div style={styles.page}>
-      <h1 style={styles.title}>{name}</h1>
+      <h1 style={styles.title} className="shadow p-1 rounded">{name}</h1>
       <div style={styles.contacts}>
         <p style={styles.email}>
           <Email style={styles.icon} /> {email}

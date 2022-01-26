@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import ResumeInfo from "./pages/ResumeInfo"
 import ResumeUpload from "./pages/ResumeUpload"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (

@@ -1,14 +1,12 @@
-import { useState, useEffect } from 'react';
 import logo from '../images/resume.svg';
 import '../App.css';
 import FileDropZone from '../components/FileDropZone';
 import API from '../api/API';
 import { useNavigate } from 'react-router-dom';
+import background from '../images/app-wallpaper-home.png';
+import { AnyTxtRecord } from 'dns';
 
 function ResumeUpload() {
-
-    const [text, setText] = useState("");
-
     const navigate = useNavigate();
 
     const sendFileToServer = async (data: any) => {
@@ -18,22 +16,14 @@ function ResumeUpload() {
         })
     }
 
-    useEffect(() => {
-        const data = {url: "ola", text: "Ola"};
-        //new API().uploadJobNotice(data);
-    });
-
     return (
-        <div className="App">
-            <header className="App-header">
-                <p style={styles.title}>
-                    Upload your cv and a job offer <br />
-                    To check if you are suited for the job!
+        <div className="App" >
+            <header className="App-header" style={styles.page}>
+                <p style={styles.title} className="shadow p-3 rounded w-100">
+                    Upload your CV and a job offer <br />
+                    To check if you are suited for the job! 
                 </p>
-                <img src={logo} className="App-logo" alt="logo" style={{ height: 100, width: 100 }} />
-                <p>
-                    {text}
-                </p>
+                <img src={logo} className="App-logo" alt="logo" style={styles.logo} />
                 <FileDropZone onDataExtract={sendFileToServer} />
             </header>
         </div>
@@ -43,8 +33,27 @@ function ResumeUpload() {
 const styles = {
     title: {
         fontWeight: 'bold',
-        fontSize: 30
-    }
+        fontSize: 30,
+        fontFamily: 'Tahoma'
+    },
+    logo: {
+        height: 220, 
+        width: 220,
+        marginTop: '3.2em',
+        marginBottom: '3.2em' 
+    },
+    page: {
+        backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'repeat repeat',
+        display: 'flex', 
+        flexDirection: 'column' as 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'white',
+        backgroundAttachment: 'fixed'
+      },
 }
 
 export default ResumeUpload;

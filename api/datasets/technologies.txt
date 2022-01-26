@@ -167,6 +167,9 @@ Rapidoid
 Ktor
 Scalatra
 Toolatra
+AWS
+Azure
+Kafka
 //
 HTML
 HTML5
@@ -184,6 +187,7 @@ Gradle
 GitHub
 GitLab
 Docker
+Kubernetes
 REST
 Web Development
 Mobile Development

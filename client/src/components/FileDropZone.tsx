@@ -1,9 +1,11 @@
-import React, { useCallback } from 'react'
+import { useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone'
-import API from '../api/API';
 import uploadIcon from '../images/uploadIcon.png';
+import { CSpinner } from '@coreui/react';
 
-export default function FileDropZone({onDataExtract} : any) {
+export default function FileDropZone({ onDataExtract }: any) {
+  const [loading, setLoading] = useState(false);
+
   const onDrop = useCallback((acceptedFiles) => {
     acceptedFiles.forEach((file: any) => {
       const reader = new FileReader()
@@ -11,6 +13,7 @@ export default function FileDropZone({onDataExtract} : any) {
       reader.onabort = () => console.log('file reading was aborted')
       reader.onerror = () => console.log('file reading has failed')
       reader.onload = async () => {
+        setLoading(true);
         const data = new FormData();
         data.append('file', file);
         data.append('filename', file.name);
@@ -24,17 +27,22 @@ export default function FileDropZone({onDataExtract} : any) {
   const { getRootProps, getInputProps } = useDropzone({ onDrop })
 
   return (
-      <div {...getRootProps()} style={styles.fileUpload}>
-        <input {...getInputProps()} />
-        <img src={uploadIcon} alt="uploadIcon" style={styles.img}/>
-        <p style={styles.text}>Drag & drop some files here, or click to select files</p>
-      </div>
+    <div {...getRootProps()} style={styles.fileUpload}>
+      <input {...getInputProps()} />
+      <img src={uploadIcon} alt="uploadIcon" style={styles.img} />
+      <p style={styles.text}>Drag & drop some files here, or click to select files</p>
+      {loading && (
+        <CSpinner color='primary' />
+      )}
+    </div>
   )
 }
 
 const styles = {
   text: {
-    color: 'black'
+    color: 'black',
+    marginTop: '0.2em',
+    fontStyle: 'italic'
   },
   fileUpload: {
     backgroundColor: 'white',

@@ -1,14 +1,8 @@
-import app
 import nltk
-import logging
-import time
-logger = logging.getLogger('_______')
-logging.basicConfig(level=logging.DEBUG)
 from utils.utils import to_lower_all
 
 def match_terms(file_content, sets_to_match):
     tokens = nltk.wordpunct_tokenize(file_content)
-    logger.info(tokens)
     terms_to_match = to_lower_all(tokens)
 
     num_sets = len(sets_to_match)

@@ -4,14 +4,12 @@ import FileDropZone from '../components/FileDropZone';
 import API from '../api/API';
 import { useNavigate } from 'react-router-dom';
 import background from '../images/app-wallpaper-home.png';
-import { AnyTxtRecord } from 'dns';
 
 function ResumeUpload() {
     const navigate = useNavigate();
 
-    const sendFileToServer = async (data: any) => {
+    const sendFileToServer = async (data: FormData) => {
         new API().uploadFile(data).then((response) => {
-            console.log(response)
             navigate("/info", { state: response.data });
         })
     }

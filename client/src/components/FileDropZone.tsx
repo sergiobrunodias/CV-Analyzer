@@ -3,15 +3,19 @@ import { useDropzone } from 'react-dropzone'
 import uploadIcon from '../images/uploadIcon.png';
 import { CSpinner } from '@coreui/react';
 
-export default function FileDropZone({ onDataExtract }: any) {
+type fileDropZoneProps = {
+  onDataExtract: Function
+}
+
+export default function FileDropZone({ onDataExtract }: fileDropZoneProps) {
   const [loading, setLoading] = useState(false);
 
   const onDrop = useCallback((acceptedFiles) => {
     acceptedFiles.forEach((file: any) => {
       const reader = new FileReader()
 
-      reader.onabort = () => console.log('file reading was aborted')
-      reader.onerror = () => console.log('file reading has failed')
+      reader.onabort = () => console.log('File reading was aborted!')
+      reader.onerror = () => console.log('File reading has failed!')
       reader.onload = async () => {
         setLoading(true);
         const data = new FormData();
@@ -23,7 +27,7 @@ export default function FileDropZone({ onDataExtract }: any) {
       reader.readAsArrayBuffer(file)
     })
 
-  }, [])
+  }, [onDataExtract])
   const { getRootProps, getInputProps } = useDropzone({ onDrop })
 
   return (

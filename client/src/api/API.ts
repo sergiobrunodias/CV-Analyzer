@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { CandidateData } from '../types'
 
 axios.interceptors.response.use(function (response) {
     return response;
@@ -19,18 +20,17 @@ export default class API {
         return `${this.url}/${path}`
     }
 
-    async uploadFile(fileData: Object) {
+    async uploadFile(fileData: FormData) {
         const url = this.buildURL('upload_cv');
         const promise = axios.post(url, fileData);
         const dataPromise = promise.then((response) => response);
         return dataPromise;
     }
 
-    async uploadJobNotice(data: Object) {
+    async uploadJobNotice(data: CandidateData) {
         const url = this.buildURL('upload_job_notice');
         const promise = axios.post(url, data);
         const dataPromise = promise.then((response) => response);
         return dataPromise;
     }
-
 }

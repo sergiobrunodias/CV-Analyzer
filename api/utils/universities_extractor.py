@@ -1,6 +1,4 @@
-import logging
-logger = logging.getLogger('_______')
-logging.basicConfig(level=logging.DEBUG)
+from utils.utils import log
 
 def build_file():
     try:
@@ -28,5 +26,4 @@ def build_file():
         output_file.close()
 
     except Exception as e:
-        logger.info(e)
-        print(e)
+        log(e)

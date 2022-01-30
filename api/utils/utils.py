@@ -3,6 +3,9 @@ import logging
 logger = logging.getLogger('_______')
 logging.basicConfig(level=logging.DEBUG)
 
+def log(message):
+    logger.info(message)
+
 def to_lower_all(list_arg):
     return list(map(lambda element: element.lower(), list_arg))
 
@@ -20,6 +23,6 @@ def build_dict_from_dataset(file_name):
             term = line[0:len(line)-1]
             dict[term.lower()] = term
     except Exception as e:
-        print(e)
+        log(e)
     
     return dict

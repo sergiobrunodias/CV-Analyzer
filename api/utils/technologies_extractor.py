@@ -1,6 +1,4 @@
-import logging
-logger = logging.getLogger('_______')
-logging.basicConfig(level=logging.DEBUG)
+from utils.utils import log
 
 def build_file():
     try:
@@ -19,10 +17,8 @@ def build_file():
                 if achronym_index is not -1:
                     term = term[0 : achronym_index]
 
-                logger.info(term)
-
                 output_file.write(f'{term}\n')
             except: {} # If it is not possible to parse one line, just move forward
 
     except Exception as e:
-        print(e)
+        log(e)

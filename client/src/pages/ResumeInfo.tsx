@@ -10,6 +10,7 @@ import TagsComponent from "react-tags-component";
 import background from '../images/app-wallpaper.png';
 import { useLocation } from 'react-router-dom';
 import API from '../api/API';
+import { CandidateData } from '../types'
 
 import {
   Button,
@@ -18,7 +19,7 @@ import {
   Row
 } from 'react-bootstrap'
 
-type ResumeInfo = {
+type ResumeDetails = {
   name: string,
   email: string,
   phone_number: string,
@@ -42,13 +43,13 @@ function ResumeInfo() {
 
     const state = location.state;
 
-    const name = (state as ResumeInfo)?.name;
-    const email = (state as ResumeInfo)?.email;
-    const phone_number = (state as ResumeInfo)?.phone_number;
-    const designations = (state as ResumeInfo)?.designations;
-    const universities = (state as ResumeInfo)?.universities;
-    const skills = (state as ResumeInfo)?.skills;
-    const languages = (state as ResumeInfo)?.languages;
+    const name = (state as ResumeDetails)?.name;
+    const email = (state as ResumeDetails)?.email;
+    const phone_number = (state as ResumeDetails)?.phone_number;
+    const designations = (state as ResumeDetails)?.designations;
+    const universities = (state as ResumeDetails)?.universities;
+    const skills = (state as ResumeDetails)?.skills;
+    const languages = (state as ResumeDetails)?.languages;
 
     setName(name);
     setEmail(email);
@@ -57,7 +58,7 @@ function ResumeInfo() {
     setUniversities(universities);
     setSkills(skills);
     setLanguages(languages)
-  })
+  }, [location.state])
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
@@ -74,7 +75,7 @@ function ResumeInfo() {
   const [languagesMatched, setLanguagesMatched] = useState(new Set())
 
   function sendLink() {
-     const data = {
+     const data: CandidateData = {
        link: jobNoticeLink,
        designations: designations,
        skills: skills,
@@ -126,13 +127,14 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              designations.map(designation => (
+              designations.map((designation, i) => (
                 <TagsComponent
                   textLabel={designation}
                   colorTextLabel={"#000000"}
                   backgroundTags={designationsMatched.has(designation)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
+                  key={i}
                 />
               ))
             }
@@ -146,13 +148,14 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              universities.map(el => (
+              universities.map((el, i) => (
                 <TagsComponent
                   textLabel={el}
                   colorTextLabel={"#000000"}
                   backgroundTags={"#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
+                  key={i}
                 />
               ))
             }
@@ -166,13 +169,14 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              languages.map(language => (
+              languages.map((language, i) => (
                 <TagsComponent
                   textLabel={language}
                   colorTextLabel={"#000000"}
                   backgroundTags={languagesMatched.has(language)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
+                  key={i}
                 />
               ))
             }
@@ -186,13 +190,14 @@ function ResumeInfo() {
           </Col>
           <Col sm={8}>
             {
-              skills.map(skill => (
+              skills.map((skill, i) => (
                 <TagsComponent
                   textLabel={skill}
                   colorTextLabel={"#000000"}
                   backgroundTags={skillsMatched.has(skill)? "#00FF00" : "#FFFFFF"}
                   hideShadowTags={true}
                   hideIcon={true}
+                  key={i}
                 />
               ))
             }
